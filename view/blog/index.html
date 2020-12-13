@@ -1,0 +1,247 @@
+<div class="container body-content">
+    <div class="row margin-0 ">
+        <div class="col-md-9">
+            
+            <div class="posts">
+            {{range .listPost}}
+            <div class="post">
+                    {{if .Thumbnail}}
+                    <div class="post__thumbnail" style="overflow: hidden; padding: 0;">
+                        <a href="{{.Slug}}">
+                            <img src="{{.Thumbnail}}" alt="Thumbnail post">
+                        </a>
+                    </div>
+                    {{end}}
+                    
+                    <div class="post__text">
+                        <div class="post__title">
+                            <a href="{{.Slug}}">{{.Title}}</a>
+                        </div>
+                        <div class="post__info">
+                            {{if .Tag}}
+                            <div>
+                                {{range .Tag}}
+                                <a href="/?tag={{.}}">#{{.}}</a>
+                                {{end}}
+                            </div>
+                            {{end}}
+                        </div>
+                        <div class="post__description">{{.Description}}</div>
+                    </div>
+            </div>
+            {{end}}
+            </div>
+            <div class="pagination">
+                {{$currentPage := .currentPage}}
+                {{range .totalPages}}
+                {{if eq . $currentPage}}
+                    <div data-page="{{.}}" class="pagination__page-number pagination__current-page">
+                        <div >{{.}}</div>
+                    </div>
+                {{else}}
+                    <div data-page="{{.}}" class="pagination__page-number">
+                        <div>{{.}}</div>
+                    </div>
+                {{end}}
+                {{end}}
+            </div>
+        </div>
+        <div class="col-md-3">
+
+            <div class="paragraph">
+                <div class="paragraph__title">
+                    Tìm kiếm
+                </div>
+                <div class="search-box">
+                    <input id="search-box" type="text" class="search-field" placeholder="Từ khóa …" title="Tìm kiếm:">
+                    <span class="search-box__tag-choosed">
+                        {{range .tagChoosed}}
+                            {{.}} 
+                        {{end}}
+                    </span>
+                    <span class="search-box__remove">Xóa</span>
+                </div>
+            </div>
+
+            <div class="paragraph">
+                <div class="paragraph__title">
+                    Series bài viết
+                </div>
+                <div class="series">
+                    {{range .listSeries}}
+                    <div class="series__item"><a href="/series/{{.Slug}}">{{.Title}}</a></div>
+                    {{end}}
+                </div>
+            </div>
+
+            <div class="paragraph">
+                <div class="paragraph__title">
+                    Tags
+                </div>
+                <div class="tags">
+                    {{range .listTag}}
+                        <div class="tag tag-active" data-tag-slug="{{.}}">#{{.}}</div>
+                    {{end}}
+                </div>
+            </div>
+
+            <div class="paragraph">
+                <div class="paragraph__title">
+                    Nhận email thông báo bài viết mới
+                </div>
+                <div class="confirm-the-notification">
+                    <input id="email" type="text" placeholder="Nhập email …" title="Tìm kiếm:">
+                    <button id="confirm-the-notification"><i class="fas fa-envelope-open-text"></i></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        
+    </div>
+</div>
+<span style="display: none" class="totalPages">{{.totalPages}}</span>
+
+<style>
+
+    .series {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .series__item {
+        margin: 10px 20px;
+    }
+
+    .search-box, .confirm-the-notification {
+        display: flex;
+        width: 100%;
+        position: relative;
+        overflow: hidden;   
+        margin-bottom: 16px;
+        border: 1px solid #ddd;
+    }
+
+    input {
+        border: none;
+        background-color: #fff;
+        padding: 5px 10px;
+        width: 100%;
+        border-radius: 6px;
+    }
+
+    .search-box__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        width: 48px;
+        cursor: pointer;
+        
+    }
+    .search-box__remove {
+        position: absolute;
+        right: 25px;
+        top: 5px;
+        color: #333333;
+        cursor: pointer;
+        text-decoration:underline;
+        display: none;
+        z-index: 10;
+    }
+
+    .search-box__tag-choosed {
+        position: absolute;
+        right: 70px;
+        top: 45px;
+        cursor: pointer;
+        z-index: 10;
+    }
+    .confirm-the-notification button {
+        background-color: #898989;
+        color: #fff;
+        border: none;
+        width: 36px;
+    }
+
+    .request-post a {
+        color: red;
+    }
+
+
+
+
+</style>
+
+<script src="/resources/js/search-box.js"></script>
+
+<script>
+    var totalPages = parseInt($('.totalPages').html())
+    var count = 1
+    $('.btn-search').click(function () {
+        if ($('.category-list').hasClass("show")) {
+            $('.category-list').removeClass("show");
+        } else {
+            $('.category-list').addClass("show");
+        }
+    });
+    $('.tag').click(function (e) {
+        $( this ).removeClass('tag-active')
+        var TagSlug = $( this ).data( "tag-slug" )
+        var url = new URL(window.location.href);
+        var allTagParams = url.searchParams.getAll('tag');
+        url.searchParams.delete('tag')
+        var tagExist = false
+        for (i = 0; i < allTagParams.length; i++) {
+            if (allTagParams[i] == TagSlug) {
+                tagExist = true;
+                allTagParams.splice(i,1);
+                break
+            }
+        }
+        if (!tagExist) {
+            allTagParams.push(TagSlug);
+        }
+        for (i = 0; i < allTagParams.length; i++) {
+            url.searchParams.append('tag', allTagParams[i]);
+        }
+        window.location.href = url.href
+    });
+
+    $(".tag").each(function() {
+        $( this ).removeClass('tag-active');
+        var url = new URL(window.location.href);
+        var allTagParams = url.searchParams.getAll('tag');
+        var TagSlug = $( this ).data( "tag-slug" )
+        for (i = 0; i < allTagParams.length; i++) {
+            if (TagSlug == allTagParams[i]) {
+                $( this ).addClass('tag-active');
+            }
+        }
+    });
+
+    $("#confirm-the-notification").click(function () {
+        var req = {
+            Email: $("#email").val(),
+        };
+        var myJSON = JSON.stringify(req);
+        $.ajax({
+            url: "/confirm-the-notification",
+            type: "POST",
+            contentType: "application/json; charset=utf-8",
+            data: myJSON,
+            dataType: "json",
+            success: function (data) {
+				alert(data);
+				window.location.reload(true);
+            },
+            error: function (result) {
+              alert(result.responseJSON)
+            }
+        });
+    }
+    );
+</script>

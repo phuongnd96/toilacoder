@@ -1,0 +1,60 @@
+<div class="body-content container">
+    <div class="row">
+        <div class="col-12">
+            <h3>Yêu cầu bài viết</h3>
+            <div class="input-field">
+                <label for="content">Nội dung yêu cầu</label>
+                <input type="text" id="content">
+            </div>
+            <div class="input-field">
+                <label for="email">Email (có thể để trống)</label>
+                <input type="text" id="email">
+            </div>
+        </div>
+        <div class="col-12">
+            <button id="button">Yêu cầu</button>
+        </div>
+    </div>    
+</div>
+
+<style>
+    .input-field > input[type=text]{
+        margin: 20px 0;
+        background-color: #fff;
+        height: 45px;
+        width: 100%;
+        outline: none;
+        border: 1px solid #ddd;
+        padding: 0 5px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px, rgba(0, 0, 0, 0.05) 0px 1px 2px;
+    }
+</style>
+
+<script>
+        $("#button").click(function () {
+        if ($("#content").val() == "")
+        {
+            alert("Nội dung không được để trống")
+            return
+        }
+        var req = {
+            Content: $("#content").val(),
+            Email: $("#email").val(),
+        };
+        var myJSON = JSON.stringify(req);
+        $.ajax({
+            url: "/request-post",
+            type: "POST",
+            contentType: "application/json; charset=utf-8",
+            data: myJSON,
+            dataType: "json",
+            success: function (data) {
+                alert(data);
+            },
+            error: function (result) {
+                alert(result.responseJSON)
+            }
+        });
+    }
+    );
+</script>

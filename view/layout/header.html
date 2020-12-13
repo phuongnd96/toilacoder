@@ -1,0 +1,169 @@
+{{define "header"}}
+<header>
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand" href="/">
+				<!-- <img src="/resources/image/logo-toilacoder.png" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+				Tôi là coder
+			  </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			  <div class="navbar-nav">
+				<a class="nav-item nav-link" href="/?tag=golang">Golang</a>
+				<a class="nav-item nav-link" href="/?tag=docker">Docker</a>
+				<a class="nav-item nav-link" href="/?tag=microservices">Microservices</a>
+				<a class="nav-item nav-link" href="/?tag=devops">Devops</a>
+				<a class="nav-item nav-link" href="/?tag=linux">Linux</a>
+				<a class="nav-item nav-link" href="/?tag=flutter">Flutter</a>
+			  </div>
+			</div>
+		
+		</nav>
+	</div>
+
+	<script src="/resources/js/search-box.js"></script>
+
+	<style>
+
+		header {
+			background-color: #fff;
+		}
+		.navbar {
+			display: flex;
+			justify-content: space-between;
+			padding: 10px 5px;
+			width: 100%;
+		}
+
+		#navbarNavAltMarkup {
+			max-width: 800px;
+		}
+
+		.navbar-nav {
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			padding: 10px 5px;
+			max-width: 800px;
+		}
+
+		.navbar-light .navbar-nav .nav-link {
+			padding: 5px 25px;
+			font-weight: 500;
+			color: #202124;
+		}
+
+		.fa-home {
+			font-size: 1.2rem;
+			padding-top: 30px;
+		}
+
+		.logo a {
+			color: #e5e5e5;
+			text-decoration: none;
+		}
+
+		.navbar-brand {
+			font-size: 1.4rem;
+			font-weight: 600;
+		}
+
+		.nav-item {
+			font-size: 1.2rem;
+		}
+
+		.login-panel {
+			display: flex;
+			align-items: center;
+			text-align: center;
+		}
+
+		.menu-item {
+			padding: 0px 20px;
+			cursor: pointer;
+				
+		}
+		.menu-item a {
+			text-decoration: none;
+			/* font: 1.2rem 'Anonymous Pro'; */
+		}
+		.menu-item:last-child {
+			padding-right: 0px; 
+		}
+
+		.header-page {
+			background-color: #8d0003!important;
+			padding: .7rem 0;
+		}
+
+		.navigation-panel {
+			box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3), 0 2px 6px 2px rgba(60,64,67,0.15);
+			
+		}
+
+		.navigation-panel > img {
+			height: 100%;
+		}
+		
+	
+		.brand {
+			display: flex;
+			height: 60px;
+			align-items: center;
+			overflow: hidden;
+		}
+
+		.brand i{
+			font-size: 2.5rem;
+			color: #4b6983;
+		}
+
+		.brand a{
+			font-size: 1.5rem;
+			color: #333333;
+		}
+
+		.brand > a > img {
+			max-height: 100%;
+
+		}
+
+		.modal-content {
+			background-color: #f0f2f5;
+		}
+
+		.input-field > input[type=text], .input-field > input[type=password] {
+			margin-bottom: 20px;
+			background-color: #fff;
+			height: 30px;
+			width: 100%;
+			outline: none;
+			border: none;
+			padding: 0 5px;
+			box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px, rgba(0, 0, 0, 0.05) 0px 1px 2px;
+		}
+
+		@media (max-width: 992px) {
+
+			.menu-item a {
+				text-decoration: none;
+				/* font: 1.0rem 'Anonymous Pro'; */
+			}
+		}
+	</style>
+	<script>
+	    var urlPath1 = "/" + window.location.pathname.split('/')[1];
+		$( ".nav-item a" ).each(function( index ) {
+			if (urlPath1 == $(this).data( "tab" )) {
+				$(this).addClass('nav-item__active')
+			} else {
+				$(this).removeClass('nav-item__active')
+			}
+		});
+		
+	</script>
+</header>
+{{end}}
+

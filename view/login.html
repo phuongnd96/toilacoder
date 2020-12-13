@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="wrap-form">
+    <div class="input-field">
+        <label for="username">Username</label>
+        <input type="text" id="username">
+    </div>
+    <div class="input-field">
+        <label for="password">Password</label>
+        <input type="password" id="password">
+    </div>
+    <div>
+        <div id="button" data-role="button">Đăng nhập</div>
+    </div>
+</div>
+</body>
+<script>
+    $("#button").click(function () {
+        var req = {
+            Username: $("#username").val(),
+            Passwd: $("#password").val(),
+        };
+        var myJSON = JSON.stringify(req);
+        $.ajax({
+            url: "/login",
+            type: "POST",
+            contentType: "application/json; charset=utf-8",
+            data: myJSON,
+            dataType: "json",
+            success: function (data) {
+                window.location.replace('/')
+            },
+            error: function (result) {
+              alert(result.responseJSON)
+            }
+        });
+    }
+    );
+
+</script>
+<style>
+    body {
+        box-sizing: border-box;
+        background-color: #e0e0e0;
+    }
+
+    .wrap-form {
+        max-width: 500px;
+        margin: auto;
+        padding: 50px 0;
+        min-height: calc(100vh - 60px);
+    }
+
+    #button {
+        margin: 2% 0;
+        padding: 2%;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px, rgba(0, 0, 0, 0.05) 0px 1px 2px;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .input-field > input[type=text], .input-field > input[type=password] {
+        margin-bottom: 20px;
+        background-color: #fff;
+        height: 30px;
+        width: 100%;
+        outline: none;
+        padding: 0 5px;
+        /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px, rgba(0, 0, 0, 0.05) 0px 1px 2px; */
+    }
+
+    @media (max-width: 500px) {
+        .wrap-form {
+            padding: 50px 15px;
+        }
+    }
+
+</style>
+
+</html>

@@ -1,0 +1,96 @@
+/* CKEditor style */
+.cke_editable {
+    font-size: 1.2rem !important;
+    margin: 0;
+    padding: 0 15px;
+}
+
+.cke-code-snippet {
+    margin: 1rem 0 1.5rem 0;
+    padding: 5px;
+    border: 1px solid #e4e6e8;
+    transition: margin 0.1s;
+}
+
+.cke-code-snippet pre {
+    margin: 0 !important;
+}
+
+.cke-code-snippet__toolbar {
+    position: relative;
+    margin: 5px 0 0 0 !important;
+    text-align: right;
+    height: 35px;
+}
+
+.cke-code-snippet.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    margin: 0;
+    background: #ffffff;
+    height: 100vh;
+}
+
+.cke-code-snippet.fullscreen pre code {
+    max-height: calc(100vh - 72px);
+    overflow: scroll;
+}
+
+.cke-code-snippet__notify-copy {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    font-size: 0.7rem;
+    font-style: italic;
+    opacity: 0;
+    transition: 0.1s;
+    color: #6f6f6f;
+}
+
+.cke-code-snippet__notify-copy.notify--show {
+    opacity: 1 !important;
+}
+
+.cke-code-snippet__button {
+    font-size: 12.5px;
+    line-height: 14px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-right: 5px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.1s;
+    touch-action: manipulation;
+}
+
+.cke-code-snippet__button--default {
+    color: #6f6f6f;
+    background-color: rgba(144, 147, 153, 0.1);
+    border: 1px solid #d7d7d7;
+}
+
+.cke-code-snippet__button--default:hover {
+    color: #6f6f6f;
+    background-color: #fafbfc;
+    border: 1px solid #d7d7d7;
+}
+
+.cke-code-snippet__button--primary {
+    color: #fff;
+    background-color: #409eff;
+    border: 1px solid #409eff;
+}
+
+.cke-code-snippet__button--primary:hover {
+    color: #fff;
+    background-color: #66b1ff;
+    border: 1px solid #66b1ff;
+}

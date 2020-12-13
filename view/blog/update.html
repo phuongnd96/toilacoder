@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cập nhật bài viết</title>
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Make sure the path to CKEditor is correct. -->
+    <!-- <script src="//cdn.ckeditor.com/4.13.0/full/ckeditor.js"></script> -->
+    <script src="/resources/ckeditor/ckeditor.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <a href="/">Trang chủ</a>
+        <div class="save-button">
+            <div id="button" data-role="button">Lưu</div>
+        </div>
+        <div class="wrap-panel row">
+                <div class="col-12 input-field">
+                    <label for="title">Tiêu đề</label>
+                    <input type="text" id="title" placeholder="Tiêu đề" value="{{.post.Title}}">
+                </div>
+                <div class="col-12 input-field">
+                    <label for="title">Đường dẫn</label>
+                    <input type="text" id="slug" value="{{.post.Slug}}">
+                </div>
+                <div class="col-12 input-field">
+                    <label for="description">Mô tả</label>
+                    <br>
+                    <textarea type="text" id="description" placeholder="Mô tả">{{.post.Description}}</textarea>
+                </div>
+                <div class="col-12 input-field">
+                    <label for="thumbnail">Ảnh bài viết</label>
+                    <input type="text" id="thumbnail" value="{{.post.Thumbnail}}">
+                </div>
+                <div class="col-12 input-field">
+                    <label for="tag">Tag</label>
+                    <input type="text" placeholder="Cách nhau bằng dấu phẩy" id="tag" value="{{.tag}}">
+                </div>
+                <div class="col-12 ">
+                    <label for="tag">Series</label>
+                    <select id="series-id">
+                        <option value="0">Không nằm trong series</option>
+                        {{range .series}}
+                            <option value="{{.Id}}">{{.Title}}</option>
+                        {{end}}
+                      </select>
+                </div>
+
+            <div class="col-12 ">
+                <label>Nội dung</label>
+                <br>
+                <div class="ckeditor-area">
+                    <form>
+                        <textarea name="editor1" id="editor1" rows="800" cols="80">
+                            {{.post.Content}}
+                        </textarea>
+                        <script>
+                            // Replace the <textarea id="editor1"> with a CKEditor
+                            // instance, using default configuration.
+                            CKEDITOR.replace("editor1",
+                            {
+                                height: 680
+                            });
+                        </script>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    $("#button").click(function () {
+        var req = {
+            Title: $("#title").val(),
+            Slug: $("#slug").val(),
+            Tag: $("#tag").val(),
+            Author: $("#author").val(),
+            Description: $("#description").val(),
+            Thumbnail: $("#thumbnail").val(),
+            Content: CKEDITOR.instances.editor1.getData(),
+            Id: {{.post.Id}},
+            SeriesId: parseInt($("#series-id").val())
+        };
+        var myJSON = JSON.stringify(req);
+        $.ajax({
+            url: "/update-post",
+            type: "POST",
+            contentType: "application/json; charset=utf-8",
+            data: myJSON,
+            dataType: "json",
+            success: function (data) {
+                alert(data)
+            },
+            error: function (result) {
+                alert(result.responseJSON)
+            }
+        });
+    }
+    );
+
+</script>
+<link rel="stylesheet" type="text/css" href="/resources/css/nolayout.css">
+<style>
+    #description {
+        width: 100%;
+    }
+</style>
+</html>

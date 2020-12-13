@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="google-site-verification" content="zDEv7bOqT4biAdS7E6B_C3zIFvCaJJ3oq3w7ybf8mrY" />
+    <title>{{.title}}</title>
+    <!-- Open Graph -->
+    <meta property="fb:app_id" content="531332097587641" /> 
+    <meta name="description" content="{{.metaDescription}}"/>
+    <link rel="canonical" href="{{.ogURL}}"/>
+    <meta property="og:title" content="{{.ogTitle}}"/>
+    <meta property="og:description" content="{{.ogDescription}}"/>
+    <meta property="og:image" content="{{.ogImage}}"/>
+    <meta property="og:url" content="{{.ogURL}}"/>
+    <meta name="keywords" content="docker, golang, devops, microservices, flutter {{.metaKeyword}}">
+    <meta name="news_keywords" content="docker, golang, devops, microservices, flutter {{.metaKeyword}}">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Tôi là Coder"/>
+    <meta property="og:locale" content="vi_VN">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CDN Highlight JS -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+
+    <!-- CDN ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+    <link rel="shortcut icon" type="image/png" href="/resources/image/favicon.png"/>
+    
+    <!-- CDN Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <script src="/resources/prism/prism.js"></script> -->
+    <!-- <link rel="stylesheet" href="/resources/prism/prism.css"/> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- /* CKEditor style */ -->
+    <link rel="stylesheet" type="text/css" href="/resources/css/ckediter.css">
+
+    <!-- /* Post content style */ -->
+    <link rel="stylesheet" type="text/css" href="/resources/css/post.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151394878-4"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-151394878-4');
+    </script>
+
+
+
+    <style>
+        body{
+            box-sizing: border-box;
+            background-color: #e8eaed;
+            /* font-family: Arial, Helvetica, sans-serif; */
+            /* font-family: 'IBM Plex Mono', monospace; */
+            /* font-family: 'Roboto Mono', monospace; */
+            /* font-family: 'Open Sans', sans-serif; */
+            /* font-family: 'Roboto', sans-serif; */
+            font-family: 'Roboto Slab', serif;
+            color: #333333;
+            line-height: 1.5rem;
+        }
+
+        *:focus {
+            outline: none;
+        }
+
+        .footer {
+            font-size: 14px;
+        }
+
+        .body-part {
+            min-height: calc(100vh - 120px);
+        }
+
+        .container {
+            max-width: 1440px;
+        }
+
+    </style>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script> -->
+</head>
+
+<body>
+    <div class="container-fluid navigation-panel">
+        {{ template "header" .user_info}}
+    </div>
+
+    <div class="body-part">
+        {{ part "body" }} {{ yield }}
+    </div>
+
+    <div style="background-color:#222428" class="container-fluid">
+        {{ template "footer" }}
+    </div>
+    <div id="overlay"></div>
+</body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v6.0&appId=531332097587641&autoLogAppEvents=1"></script>
+</html>
+
+<script>
+    $('.iframe-video-youtube').each(function (index, value) {
+        var x = $(this).width();
+        $(this).height(x*9/16);
+    });
+
+    $('.pagination__page-number').click(function (e) {
+        // window.location.href = '/'
+        var page = $( this ).data( "page" )
+        var url = new URL(window.location.href);
+        url.searchParams.set('page', page);
+        window.location.href = url.href
+    });
+</script>
+
+<!-- init highlight js -->
+<script>hljs.initHighlightingOnLoad();</script>
+
+<style>
+    .container-fluid {
+        padding: 0;
+    }
+    .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .shadow-panel {
+        background-color: #fff;
+        box-shadow: rgba(0,0,0,0.12) 0px 1px 1px, rgba(0,0,0,0.05) 0px 1px 2px;
+        margin-bottom: 10px;
+    }
+
+    .pagination {
+        margin: 3% 0;
+        padding: 5px 5px;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .pagination__page-number {
+        box-shadow: rgba(0,0,0,0.12) 0px 1px 1px, rgba(0,0,0,0.05) 0px 1px 2px, rgba(0,0,0,0.12) -1px 1px 2px, rgba(0,0,0,0.12) -1px -1px 2px;
+        padding: 2px 10px;
+        background-color: #fff;
+        margin: 0px 7px 7px 0px;
+        cursor: pointer;
+        border-radius: 6px;
+    }
+
+    .pagination__page-number div{
+        color: #333;
+        text-decoration: none;
+    }
+
+    .pagination__current-page {
+        box-shadow: inset rgba(0,0,0,0.2) 0px 1px 3px;
+        background-color: #757575;
+        color: #fff;
+    }
+
+    .pagination__current-page div {
+        color: #fff;
+    }
+
+    /* General style */
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+    }
+
+    a {
+        text-decoration: none;
+        color: #333333;
+    }
+    a:hover {
+        text-decoration: none;
+        color: #333333;
+    }
+    
+    code {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1rem !important;
+        line-height: 1.5rem;
+    }
+
+    .desktop {
+            display: block;
+        }
+    .mobile {
+        display: none;
+    }
+
+    
+    @media (max-width: 992px) {
+        .desktop {
+            display: none;
+        }
+        .mobile {
+            display: block;
+        }
+
+        .btn-text {
+            display: none;
+        }
+
+        .btn-icon {
+            display: block;
+        }
+
+        
+
+        .card-img-top {
+            height: 8rem;
+        }
+    }
+</style>

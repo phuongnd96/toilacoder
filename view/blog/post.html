@@ -1,0 +1,264 @@
+<div class="container body-content">
+    <div class="row">
+        <div class="col-md-9 wrap_panel">
+            <div class="post-detail">
+                <!-- {{if .post.Thumbnail}}
+                <div id="top-banner-post">
+                    <img src="{{.post.Thumbnail}}">
+                </div>
+                {{end}} -->
+                <div class="post__text">
+                    <div class="post__title">
+                        <h1>{{.post.Title}}</h1>
+                        {{if .postIsInSeries}}
+                        <div>Bài viết nằm trong series: <a style="font-size: 1.2rem;    color: #4b6983;" href="/series/{{.postIsInSeries.Slug}}">{{.postIsInSeries.Title}}</a></div>
+                        {{end}}
+                    </div>
+                    
+                    <div class="post__info">
+                       
+                        {{if .post.Tag}}
+                        <div>
+                            {{range .post.Tag}}
+                            <a href="/?tag={{.}}">#{{.}}</a>
+                            {{end}}
+                        </div>
+                        {{end}}
+                        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=https%3A%2F%2Ftoilacoder.com%2F{{.post.Slug}}&display=popup&ref=plugin&src=share_button">
+                            <i class="fab fa-facebook share-facebook"></i> Chia sẻ
+                        </a>
+                    </div>
+
+                    <div class="post__description">
+                        <h2>{{.post.Description}}</h2>
+                    </div>
+                  
+                </div>
+                <div class="post__content" style="padding-bottom: 5px;">
+                    {{.post.Content}}
+                </div>
+                <div class="post__text">
+                   
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="paragraph">
+                <div class="paragraph__title">Mục lục bài viết</div>
+                <div id="toc">
+                </div>
+            </div>
+
+            {{if .postsInSeries}}
+            <div class="paragraph">
+                <div class="paragraph__title">
+                    Các bài viết cùng Serie
+                </div>
+                <div>
+                    {{range $i,$v := .postsInSeries}}
+                        <div class="posts-in-series">
+                            <a href="{{.Slug}}" target="_blank">{{inc $i}}. {{.Title}}</a>
+                        </div>
+                    {{end}}
+                </div>
+            </div>
+            {{end}}
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-9 paragraph">
+            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=https%3A%2F%2Ftoilacoder.com%2F{{.post.Slug}}&display=popup&ref=plugin&src=share_button">
+                <i class="fab fa-facebook share-facebook"></i> Chia sẻ bài viết
+            </a>
+
+            <div class="">
+                <div class="paragraph__title">
+                    Bình luận
+                </div>
+                <div id="comment" class="comment-panel">
+                    {{range .commentsOfPost}}
+                    <div class="comment-panel__comment">
+                        <div class="comment-panel__info">
+                            <div class="comment-panel__username">
+                                {{.Username}}
+                            </div>
+                            <div class="comment-panel__other">
+                                {{.Email}} {{.CreatedAt}}
+                            </div>
+                        </div>
+                        <div class="comment-panel__content">
+                            {{.Content}}
+                        </div>
+                    </div>
+                    {{end}}
+                    <div class="comment-panel__typing-box">
+                        <input id="comment-input__username" type="text" placeholder="Tên *">
+                        <input id="comment-input__email" type="text" placeholder="Email (có thể để trống)">
+                        <input id="comment-input__content" type="text" placeholder="Nội dung bình luận ...">
+                    </div>
+                    <div class="comment-panel__button">
+                        <button class="comment-button" id="comment-button">Bình luận</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- /* Post content style */ -->
+    <link rel="stylesheet" type="text/css" href="/resources/css/comment.css">
+    <script type="text/javascript" src="/resources/js/jquery.toc.min.js"></script>
+
+    <style>
+
+        .shadow-panel {
+            background-color: #fff;
+            box-shadow: rgba(0,0,0,0.12) 0px 1px 1px, rgba(0,0,0,0.05) 0px 1px 2px;
+            margin-bottom: 10px;
+        }
+
+        .post__info {
+            display: flex;
+            align-content: flex-start;
+            flex-wrap: wrap;
+            color: #757575;
+        }
+
+        .post__info > div{
+            margin-right: 15px;
+        }
+
+        .fb-share-button {
+            margin-top: -5px;
+        }
+
+        .share-panel__title {
+            font-size: 1.2rem;
+            color: #757575;
+        }
+
+        #top-banner-post > img{
+            max-width: 100%;
+            height: auto !important;
+        }
+
+        .share-facebook {
+            font-size: 1.0rem;
+            color: #757575;
+        }
+
+        .toc-title {
+            color: #333333;
+            margin-top: 2rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.3rem;
+            font-weight: 500;
+        }
+
+        #toc {
+            /* top: 0px;
+            left: 0px;
+            position: -webkit-sticky;
+            position: sticky; */
+        }
+
+        #toc ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #toc li {
+            padding: 0px 10px;
+            /* border-left: 4px solid #f0f2f5; */
+        }
+
+        #toc a {
+            color: #616161;
+            text-decoration: none;
+            display: block;
+        }
+
+        #toc .toc-active {
+            /* color: #ffffff; */
+        }
+
+
+        #toc .h3, h3 {
+            font-size: 1rem;
+            padding: 5px 25px;
+        }
+
+        #toc .h4, h4 {
+            font-size: 1rem;
+            padding: 5px 40px;
+        }
+
+        .posts-in-series {
+            padding: 5px 25px;
+        }
+        
+    </style>
+    <script>
+    var url = "https://toilacoder.com{{.post.Slug}}"
+    var encodedUrl = encodeURIComponent(url);
+    hrefFinal = "https://www.facebook.com/sharer/sharer.php?u=" + encodedUrl+ "%2F&amp;src=sdkpreparse"
+    $('.fb-share-button a').attr('href', hrefFinal); 
+
+    $('#toc').toc();
+
+    $('#toc').toc({
+        'selectors': 'h3,h4', //elements to use as headings
+        'container': 'body', //element to find all selectors in
+        'smoothScrolling': true, //enable or disable smooth scrolling on click
+        'prefix': 'toc', //prefix for anchor tags and class names
+        'onHighlight': function(el) {}, //called when a new section is highlighted 
+        'highlightOnScroll': true, //add class to heading that is currently in focus
+        'highlightOffset': 100, //offset to trigger the next headline
+        'anchorName': function(i, heading, prefix) { //custom function for anchor name
+            return prefix+i;
+        },
+        'headerText': function(i, heading, $heading) { //custom function building the header-item text
+            return $heading.text();
+        },
+    'itemClass': function(i, heading, $heading, prefix) { // custom function for item class
+    return $heading[0].tagName.toLowerCase();
+    }
+    });
+
+    $("#comment-button").click(function () {
+        if ($("#comment-input__username").val() == "" || $("#comment-input__content").val() == "")
+        {
+            alert("Tên và nội dung không được để trống")
+            return
+        }
+        var req = {
+            Username: $("#comment-input__username").val(),
+            Email: $("#comment-input__email").val(),
+            Content: $("#comment-input__content").val(),
+            Slug: window.location.pathname.substring(1),
+        };
+        var myJSON = JSON.stringify(req);
+        $.ajax({
+            url: "/create-comment",
+            type: "POST",
+            contentType: "application/json; charset=utf-8",
+            data: myJSON,
+            dataType: "json",
+            success: function (data) {
+                window.location.href = ('/' + data + '#comment');
+                window.location.reload(true);
+            },
+            error: function (result) {
+                alert(result.responseJSON)
+            }
+        });
+    }
+    );
+
+
+    </script>
+
+</div>

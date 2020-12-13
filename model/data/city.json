@@ -1,0 +1,3512 @@
+{
+    "cities": [
+        {
+            "id": 242,
+            "city": "Quảng Ngãi",
+            "districts": [
+                {
+                    "id": 1630,
+                    "district": "Thành phố Quảng Ngãi"
+                },
+                {
+                    "id": 2167,
+                    "district": "Huyện Minh Long"
+                },
+                {
+                    "id": 3270,
+                    "district": "Huyện Sơn Tây"
+                },
+                {
+                    "id": 2210,
+                    "district": "Huyện Sơn Hà"
+                },
+                {
+                    "id": 2222,
+                    "district": "Huyện Tây Trà"
+                },
+                {
+                    "id": 3304,
+                    "district": "Huyện Trà Bồng"
+                },
+                {
+                    "id": 3226,
+                    "district": "Huyện Mộ Đức"
+                },
+                {
+                    "id": 3127,
+                    "district": "Huyện Ba Tơ"
+                },
+                {
+                    "id": 1628,
+                    "district": "Quảng Ngãi"
+                },
+                {
+                    "id": 1737,
+                    "district": "Huyện Sơn Tịnh"
+                },
+                {
+                    "id": 1738,
+                    "district": "Huyện Tư Nghĩa"
+                },
+                {
+                    "id": 1898,
+                    "district": "Huyện Bình Sơn"
+                },
+                {
+                    "id": 1930,
+                    "district": "Huyện Đức Phổ"
+                },
+                {
+                    "id": 1988,
+                    "district": "Huyện Nghĩa Hành"
+                },
+                {
+                    "id": 2114,
+                    "district": "Huyện đảo Lý Sơn"
+                }
+            ]
+        },
+        {
+            "id": 209,
+            "city": "Lâm Đồng",
+            "districts": [
+                {
+                    "id": 1836,
+                    "district": "Huyện Đơn Dương"
+                },
+                {
+                    "id": 1837,
+                    "district": "Huyện Đức Trọng"
+                },
+                {
+                    "id": 1550,
+                    "district": "Thành phố Đà Lạt"
+                },
+                {
+                    "id": 1838,
+                    "district": "Thành phố Bảo Lộc"
+                },
+                {
+                    "id": 1839,
+                    "district": "Huyện Bảo Lâm"
+                },
+                {
+                    "id": 3160,
+                    "district": "Huyện Di Linh"
+                },
+                {
+                    "id": 3146,
+                    "district": "Huyện Cát Tiên"
+                },
+                {
+                    "id": 2104,
+                    "district": "Huyện Đạ Huoai"
+                },
+                {
+                    "id": 2106,
+                    "district": "Huyện Đạ Tẻh"
+                },
+                {
+                    "id": 1549,
+                    "district": "Lâm Đồng"
+                },
+                {
+                    "id": 1919,
+                    "district": "Huyện Đam Rông"
+                },
+                {
+                    "id": 1956,
+                    "district": "Huyện Lạc Dương"
+                },
+                {
+                    "id": 1958,
+                    "district": "Huyện Lâm Hà"
+                }
+            ]
+        },
+        {
+            "id": 252,
+            "city": "Cà Mau",
+            "districts": [
+                {
+                    "id": 1782,
+                    "district": "Huyện Thới Bình"
+                },
+                {
+                    "id": 1783,
+                    "district": "Huyện Năm Căn"
+                },
+                {
+                    "id": 1654,
+                    "district": "Thành phố Cà Mau"
+                },
+                {
+                    "id": 1883,
+                    "district": "Huyện Phú Tân"
+                },
+                {
+                    "id": 1647,
+                    "district": "Cà Mau"
+                },
+                {
+                    "id": 1901,
+                    "district": "Huyện Cái Nước"
+                },
+                {
+                    "id": 2186,
+                    "district": "Huyện Ngọc Hiển"
+                },
+                {
+                    "id": 1922,
+                    "district": "Huyện Đầm Dơi"
+                },
+                {
+                    "id": 2038,
+                    "district": "Huyện Trần Văn Thời"
+                },
+                {
+                    "id": 2042,
+                    "district": "Huyện U Minh"
+                }
+            ]
+        },
+        {
+            "id": 212,
+            "city": "Tiền Giang",
+            "districts": [
+                {
+                    "id": 1556,
+                    "district": "Thành phố Mỹ Tho"
+                },
+                {
+                    "id": 2216,
+                    "district": "Huyện Tân Phú Đông"
+                },
+                {
+                    "id": 3275,
+                    "district": "Huyện Tân Phước"
+                },
+                {
+                    "id": 2084,
+                    "district": "Huyện Cai Lậy"
+                },
+                {
+                    "id": 1555,
+                    "district": "Tiền Giang"
+                },
+                {
+                    "id": 1740,
+                    "district": "Huyện Châu Thành"
+                },
+                {
+                    "id": 1741,
+                    "district": "Huyện Chợ Gạo"
+                },
+                {
+                    "id": 1900,
+                    "district": "Huyện Cái Bè"
+                },
+                {
+                    "id": 1932,
+                    "district": "Huyện Gò Công Đông"
+                },
+                {
+                    "id": 1933,
+                    "district": "Huyện Gò Công Tây"
+                },
+                {
+                    "id": 2055,
+                    "district": "Thị xã Cai Lậy"
+                },
+                {
+                    "id": 2057,
+                    "district": "Thị xã Gò Công"
+                }
+            ]
+        },
+        {
+            "id": 239,
+            "city": "Bình Phước",
+            "districts": [
+                {
+                    "id": 1772,
+                    "district": "Huyện Chơn Thành"
+                },
+                {
+                    "id": 1773,
+                    "district": "Huyện Hớn Quản"
+                },
+                {
+                    "id": 1722,
+                    "district": "Huyện Đồng Phú"
+                },
+                {
+                    "id": 3141,
+                    "district": "Huyện Bù Gia Mập"
+                },
+                {
+                    "id": 1625,
+                    "district": "Thị xã Đồng Xoài"
+                },
+                {
+                    "id": 1774,
+                    "district": "Thị xã Bình Long"
+                },
+                {
+                    "id": 1775,
+                    "district": "Thị xã Phước Long"
+                },
+                {
+                    "id": 3140,
+                    "district": "Huyện Bù Đốp"
+                },
+                {
+                    "id": 3444,
+                    "district": "Huyện Phú Riềng"
+                },
+                {
+                    "id": 1622,
+                    "district": "Bình Phước"
+                },
+                {
+                    "id": 1899,
+                    "district": "Huyện Bù Đăng"
+                },
+                {
+                    "id": 1964,
+                    "district": "Huyện Lộc Ninh"
+                }
+            ]
+        },
+        {
+            "id": 226,
+            "city": "Thái Bình",
+            "districts": [
+                {
+                    "id": 1599,
+                    "district": "Thành phố Thái Bình"
+                },
+                {
+                    "id": 1867,
+                    "district": "Huyện Hưng Hà"
+                },
+                {
+                    "id": 1868,
+                    "district": "Huyện Quỳnh Phụ"
+                },
+                {
+                    "id": 1869,
+                    "district": "Huyện Thái Thụy"
+                },
+                {
+                    "id": 3281,
+                    "district": "Huyện Tiền Hải"
+                },
+                {
+                    "id": 1715,
+                    "district": "Huyện Đông Hưng"
+                },
+                {
+                    "id": 1716,
+                    "district": "Huyện Vũ Thư"
+                },
+                {
+                    "id": 1593,
+                    "district": "Thái Bình"
+                },
+                {
+                    "id": 1951,
+                    "district": "Huyện Kiến Xương"
+                }
+            ]
+        },
+        {
+            "id": 231,
+            "city": "Nam Định",
+            "districts": [
+                {
+                    "id": 1840,
+                    "district": "Huyện Hải Hậu"
+                },
+                {
+                    "id": 1841,
+                    "district": "Huyện Ý Yên"
+                },
+                {
+                    "id": 1613,
+                    "district": "Thành phố Nam Định"
+                },
+                {
+                    "id": 3193,
+                    "district": "Huyện Giao Thủy"
+                },
+                {
+                    "id": 3319,
+                    "district": "Huyện Vụ Bản"
+                },
+                {
+                    "id": 3308,
+                    "district": "Huyện Trực Ninh"
+                },
+                {
+                    "id": 3243,
+                    "district": "Huyện Nghĩa Hưng"
+                },
+                {
+                    "id": 3323,
+                    "district": "Huyện Xuân Trường"
+                },
+                {
+                    "id": 1605,
+                    "district": "Nam Định"
+                },
+                {
+                    "id": 1981,
+                    "district": "Huyện Mỹ Lộc"
+                },
+                {
+                    "id": 1983,
+                    "district": "Huyện Nam Trực"
+                }
+            ]
+        },
+        {
+            "id": 218,
+            "city": "Sóc Trăng",
+            "districts": [
+                {
+                    "id": 1568,
+                    "district": "Thành phố Sóc Trăng"
+                },
+                {
+                    "id": 2161,
+                    "district": "Huyện Long Phú"
+                },
+                {
+                    "id": 2173,
+                    "district": "Huyện Mỹ Tú"
+                },
+                {
+                    "id": 2238,
+                    "district": "Huyện Thạnh Trị"
+                },
+                {
+                    "id": 2272,
+                    "district": "Thị xã Vĩnh Châu"
+                },
+                {
+                    "id": 2093,
+                    "district": "Huyện Cù Lao Dung"
+                },
+                {
+                    "id": 1567,
+                    "district": "Sóc Trăng"
+                },
+                {
+                    "id": 1743,
+                    "district": "Huyện Mỹ Xuyên"
+                },
+                {
+                    "id": 1910,
+                    "district": "Huyện Châu Thành"
+                },
+                {
+                    "id": 1949,
+                    "district": "Huyện Kế Sách"
+                },
+                {
+                    "id": 2037,
+                    "district": "Huyện Trần Đề"
+                },
+                {
+                    "id": 2062,
+                    "district": "Thị xã Ngã Năm"
+                }
+            ]
+        },
+        {
+            "id": 267,
+            "city": "Hòa Bình",
+            "districts": [
+                {
+                    "id": 1678,
+                    "district": "Thành phố Hòa Bình"
+                },
+                {
+                    "id": 2146,
+                    "district": "Huyện Kim Bôi"
+                },
+                {
+                    "id": 2156,
+                    "district": "Huyện Lạc Sơn"
+                },
+                {
+                    "id": 2157,
+                    "district": "Huyện Lạc Thủy"
+                },
+                {
+                    "id": 2163,
+                    "district": "Huyện Mai Châu"
+                },
+                {
+                    "id": 2270,
+                    "district": "Huyện Yên Thủy"
+                },
+                {
+                    "id": 1916,
+                    "district": "Huyện Đà Bắc"
+                },
+                {
+                    "id": 2014,
+                    "district": "Huyện Tân Lạc"
+                },
+                {
+                    "id": 2087,
+                    "district": "Huyện Cao Phong"
+                },
+                {
+                    "id": 1673,
+                    "district": "Hoà Bình"
+                },
+                {
+                    "id": 1955,
+                    "district": "Huyện Kỳ Sơn"
+                },
+                {
+                    "id": 1968,
+                    "district": "Huyện Lương Sơn"
+                }
+            ]
+        },
+        {
+            "id": 265,
+            "city": "Điện Biên",
+            "districts": [
+                {
+                    "id": 1676,
+                    "district": "Thành phố Điện Biên Phủ"
+                },
+                {
+                    "id": 2123,
+                    "district": "Huyện Điện Biên Đông"
+                },
+                {
+                    "id": 2170,
+                    "district": "Huyện Mường Ảng"
+                },
+                {
+                    "id": 1671,
+                    "district": "Điện Biên"
+                },
+                {
+                    "id": 2179,
+                    "district": "Huyện Nậm Pồ"
+                },
+                {
+                    "id": 1923,
+                    "district": "Huyện Điện Biên"
+                },
+                {
+                    "id": 1978,
+                    "district": "Huyện Mường Chà"
+                },
+                {
+                    "id": 1979,
+                    "district": "Huyện Mường Nhé"
+                },
+                {
+                    "id": 2021,
+                    "district": "Huyện Tủa Chùa"
+                },
+                {
+                    "id": 2022,
+                    "district": "Huyện Tuần Giáo"
+                },
+                {
+                    "id": 2060,
+                    "district": "Thị xã Mường Lay"
+                }
+            ]
+        },
+        {
+            "id": 269,
+            "city": "Lào Cai",
+            "districts": [
+                {
+                    "id": 2171,
+                    "district": "Huyện Mường Khương"
+                },
+                {
+                    "id": 2264,
+                    "district": "Huyện Xi Ma Cai"
+                },
+                {
+                    "id": 1682,
+                    "district": "Thành phố Lào Cai"
+                },
+                {
+                    "id": 2073,
+                    "district": "Huyện Bảo Thắng"
+                },
+                {
+                    "id": 1681,
+                    "district": "Lào Cai"
+                },
+                {
+                    "id": 1744,
+                    "district": "Huyện Bát Xát"
+                },
+                {
+                    "id": 1891,
+                    "district": "Huyện Bảo Yên"
+                },
+                {
+                    "id": 1892,
+                    "district": "Huyện Bắc Hà"
+                },
+                {
+                    "id": 2005,
+                    "district": "Huyện Sa Pa"
+                },
+                {
+                    "id": 2043,
+                    "district": "Huyện Văn Bàn"
+                }
+            ]
+        },
+        {
+            "id": 257,
+            "city": "Đồng Tháp",
+            "districts": [
+                {
+                    "id": 1652,
+                    "district": "Long An"
+                }
+            ]
+        },
+        {
+            "id": 219,
+            "city": "Kiên Giang",
+            "districts": [
+                {
+                    "id": 1831,
+                    "district": "Huyện Tân Hiệp"
+                },
+                {
+                    "id": 1832,
+                    "district": "Huyện Giồng Riềng"
+                },
+                {
+                    "id": 1833,
+                    "district": "Huyện An Biên"
+                },
+                {
+                    "id": 1830,
+                    "district": "Huyện Hòn Đất"
+                },
+                {
+                    "id": 1570,
+                    "district": "Thành phố Rạch Giá"
+                },
+                {
+                    "id": 2132,
+                    "district": "Huyện Gò Quao"
+                },
+                {
+                    "id": 2134,
+                    "district": "Huyện Giang Thành"
+                },
+                {
+                    "id": 2251,
+                    "district": "Huyện U Minh Thượng"
+                },
+                {
+                    "id": 2260,
+                    "district": "Huyện Vĩnh Thuận"
+                },
+                {
+                    "id": 3125,
+                    "district": "Huyện An Minh"
+                },
+                {
+                    "id": 2115,
+                    "district": "Huyện đảo Phú Quốc"
+                },
+                {
+                    "id": 1569,
+                    "district": "Kiên Giang"
+                },
+                {
+                    "id": 1719,
+                    "district": "Huyện Châu Thành"
+                },
+                {
+                    "id": 1950,
+                    "district": "Huyện Kiên Lương"
+                },
+                {
+                    "id": 2058,
+                    "district": "Thị xã Hà Tiên"
+                },
+                {
+                    "id": 2113,
+                    "district": "Huyện đảo Kiên Hải"
+                }
+            ]
+        },
+        {
+            "id": 225,
+            "city": "Hải Dương",
+            "districts": [
+                {
+                    "id": 1816,
+                    "district": "Huyện Bình Giang"
+                },
+                {
+                    "id": 1817,
+                    "district": "Huyện Cẩm Giàng"
+                },
+                {
+                    "id": 1818,
+                    "district": "Huyện Kinh Môn"
+                },
+                {
+                    "id": 1598,
+                    "district": "Thành phố Hải Dương"
+                },
+                {
+                    "id": 3287,
+                    "district": "Huyện Tứ Kỳ"
+                },
+                {
+                    "id": 3294,
+                    "district": "Huyện Thanh Miện"
+                },
+                {
+                    "id": 3292,
+                    "district": "Huyện Thanh Hà"
+                },
+                {
+                    "id": 3238,
+                    "district": "Huyện Ninh Giang"
+                },
+                {
+                    "id": 1592,
+                    "district": "Hải Dương"
+                },
+                {
+                    "id": 1727,
+                    "district": "Huyện Nam Sách"
+                },
+                {
+                    "id": 1934,
+                    "district": "Huyện Gia Lộc"
+                },
+                {
+                    "id": 1953,
+                    "district": "Huyện Kim Thành"
+                },
+                {
+                    "id": 2056,
+                    "district": "Thị xã Chí Linh"
+                }
+            ]
+        },
+        {
+            "id": 215,
+            "city": "Vĩnh Long",
+            "districts": [
+                {
+                    "id": 1562,
+                    "district": "Thành phố Vĩnh Long"
+                },
+                {
+                    "id": 2164,
+                    "district": "Huyện Mang Thít"
+                },
+                {
+                    "id": 2263,
+                    "district": "Huyện Vũng Liêm"
+                },
+                {
+                    "id": 2081,
+                    "district": "Huyện Bình Tân"
+                },
+                {
+                    "id": 1561,
+                    "district": "Vĩnh Long"
+                },
+                {
+                    "id": 1962,
+                    "district": "Huyện Long Hồ"
+                },
+                {
+                    "id": 2008,
+                    "district": "Huyện Tam Bình"
+                },
+                {
+                    "id": 2034,
+                    "district": "Huyện Trà Ôn"
+                },
+                {
+                    "id": 2054,
+                    "district": "Thị xã Bình Minh"
+                }
+            ]
+        },
+        {
+            "id": 258,
+            "city": "Bình Thuận",
+            "districts": [
+                {
+                    "id": 1776,
+                    "district": "Huyện Hàm Thuận Nam"
+                },
+                {
+                    "id": 1779,
+                    "district": "Huyện Đức Linh"
+                },
+                {
+                    "id": 1780,
+                    "district": "Huyện Bắc Bình"
+                },
+                {
+                    "id": 1781,
+                    "district": "Huyện Tuy Phong"
+                },
+                {
+                    "id": 1656,
+                    "district": "Bình Thuận"
+                },
+                {
+                    "id": 1666,
+                    "district": "Thành phố Phan Thiết"
+                },
+                {
+                    "id": 1777,
+                    "district": "Huyện Hàm Thuận Bắc"
+                },
+                {
+                    "id": 1778,
+                    "district": "Thị xã La Gi"
+                },
+                {
+                    "id": 3196,
+                    "district": "Huyện Hàm Tân"
+                },
+                {
+                    "id": 2012,
+                    "district": "Huyện Tánh Linh"
+                },
+                {
+                    "id": 2116,
+                    "district": "Huyện đảo Phú Quý"
+                }
+            ]
+        },
+        {
+            "id": 228,
+            "city": "Tuyên Quang",
+            "districts": [
+                {
+                    "id": 1601,
+                    "district": "Thành phố Tuyên Quang"
+                },
+                {
+                    "id": 3157,
+                    "district": "Huyện Chiêm Hóa"
+                },
+                {
+                    "id": 3267,
+                    "district": "Huyện Sơn Dương"
+                },
+                {
+                    "id": 1745,
+                    "district": "Huyện Yên Sơn"
+                },
+                {
+                    "id": 1595,
+                    "district": "Tuyên Quang"
+                },
+                {
+                    "id": 1941,
+                    "district": "Huyện Hàm Yên"
+                },
+                {
+                    "id": 1957,
+                    "district": "Huyện Lâm Bình"
+                },
+                {
+                    "id": 1982,
+                    "district": "Huyện Na Hang"
+                }
+            ]
+        },
+        {
+            "id": 261,
+            "city": "Ninh Thuận",
+            "districts": [
+                {
+                    "id": 1855,
+                    "district": "Huyện Ninh Sơn"
+                },
+                {
+                    "id": 1665,
+                    "district": "Thành phố Phan Rang – Tháp Chàm"
+                },
+                {
+                    "id": 3129,
+                    "district": "Huyện Bác Ái"
+                },
+                {
+                    "id": 3302,
+                    "district": "Huyện Thuận Nam"
+                },
+                {
+                    "id": 3301,
+                    "district": "Huyện Thuận Bắc"
+                },
+                {
+                    "id": 1659,
+                    "district": "Ninh Thuận"
+                },
+                {
+                    "id": 1985,
+                    "district": "Huyện Ninh Hải"
+                },
+                {
+                    "id": 1986,
+                    "district": "Huyện Ninh Phước"
+                }
+            ]
+        },
+        {
+            "id": 259,
+            "city": "Kon Tum",
+            "districts": [
+                {
+                    "id": 1834,
+                    "district": "Huyện Kon Plông"
+                },
+                {
+                    "id": 1835,
+                    "district": "Huyện Đắk Hà"
+                },
+                {
+                    "id": 2121,
+                    "district": "Huyện Đắk Tô"
+                },
+                {
+                    "id": 2148,
+                    "district": "Huyện Kon Rẫy"
+                },
+                {
+                    "id": 2187,
+                    "district": "Huyện Ngọc Hồi"
+                },
+                {
+                    "id": 2205,
+                    "district": "Huyện Sa Thầy"
+                },
+                {
+                    "id": 3446,
+                    "district": "Huyện Ia H Drai"
+                },
+                {
+                    "id": 1660,
+                    "district": "Thành phố Kon Tum"
+                },
+                {
+                    "id": 1657,
+                    "district": "Kon Tum"
+                },
+                {
+                    "id": 2225,
+                    "district": "Huyện Tu Mơ Rông"
+                },
+                {
+                    "id": 1921,
+                    "district": "Huyện Đắk Glei"
+                }
+            ]
+        },
+        {
+            "id": 253,
+            "city": "Bạc Liêu",
+            "districts": [
+                {
+                    "id": 1655,
+                    "district": "Thành phố Bạc Liêu"
+                },
+                {
+                    "id": 1723,
+                    "district": "Huyện Hòa Bình"
+                },
+                {
+                    "id": 1648,
+                    "district": "Bạc Liêu"
+                },
+                {
+                    "id": 1926,
+                    "district": "Huyện Đông Hải"
+                },
+                {
+                    "id": 1935,
+                    "district": "Huyện Giá Rai"
+                },
+                {
+                    "id": 1946,
+                    "district": "Huyện Hồng Dân"
+                },
+                {
+                    "id": 1998,
+                    "district": "Huyện Phước Long"
+                },
+                {
+                    "id": 2050,
+                    "district": "Huyện Vĩnh Lợi"
+                }
+            ]
+        },
+        {
+            "id": 235,
+            "city": "Nghệ An",
+            "districts": [
+                {
+                    "id": 1843,
+                    "district": "Huyện Đô Lương"
+                },
+                {
+                    "id": 1844,
+                    "district": "Huyện Anh Sơn"
+                },
+                {
+                    "id": 1845,
+                    "district": "Huyện Tân Kỳ"
+                },
+                {
+                    "id": 1846,
+                    "district": "Huyện Yên Thành"
+                },
+                {
+                    "id": 1847,
+                    "district": "Huyện Diễn Châu"
+                },
+                {
+                    "id": 1848,
+                    "district": "Huyện Quỳnh Lưu"
+                },
+                {
+                    "id": 1851,
+                    "district": "Huyện Nghĩa Đàn"
+                },
+                {
+                    "id": 1852,
+                    "district": "Huyện Quỳ Hợp"
+                },
+                {
+                    "id": 1853,
+                    "district": "Huyện Con Cuông"
+                },
+                {
+                    "id": 1854,
+                    "district": "Huyện Nghi Lộc"
+                },
+                {
+                    "id": 1617,
+                    "district": "Thành phố Vinh"
+                },
+                {
+                    "id": 1842,
+                    "district": "Thị xã Cửa Lò"
+                },
+                {
+                    "id": 1849,
+                    "district": "Thị xã Hoàng Mai"
+                },
+                {
+                    "id": 1850,
+                    "district": "Thị xã Thái Hòa"
+                },
+                {
+                    "id": 3288,
+                    "district": "Huyện Tương Dương"
+                },
+                {
+                    "id": 3211,
+                    "district": "Huyện Kỳ Sơn"
+                },
+                {
+                    "id": 3291,
+                    "district": "Huyện Thanh Chương"
+                },
+                {
+                    "id": 3261,
+                    "district": "Huyện Quỳ Châu"
+                },
+                {
+                    "id": 3260,
+                    "district": "Huyện Quế Phong"
+                },
+                {
+                    "id": 3233,
+                    "district": "Huyện Nam Đàn"
+                },
+                {
+                    "id": 1609,
+                    "district": "Nghệ An"
+                },
+                {
+                    "id": 1947,
+                    "district": "Huyện Hưng Nguyên"
+                }
+            ]
+        },
+        {
+            "id": 203,
+            "city": "Đà Nẵng",
+            "districts": [
+                {
+                    "id": 1526,
+                    "district": "Quận Hải Châu"
+                },
+                {
+                    "id": 1527,
+                    "district": "Quận Thanh Khê"
+                },
+                {
+                    "id": 1528,
+                    "district": "Quận Sơn Trà"
+                },
+                {
+                    "id": 1529,
+                    "district": "Quận Ngũ Hành Sơn"
+                },
+                {
+                    "id": 1530,
+                    "district": "Quận Liên Chiểu"
+                },
+                {
+                    "id": 1531,
+                    "district": "Quận Cẩm Lệ"
+                },
+                {
+                    "id": 1687,
+                    "district": "Huyện Hòa Vang"
+                },
+                {
+                    "id": 1532,
+                    "district": "Đà Nẵng"
+                },
+                {
+                    "id": 2112,
+                    "district": "Huyện đảo Hoàng Sa"
+                }
+            ]
+        },
+        {
+            "id": 229,
+            "city": "Phú Thọ",
+            "districts": [
+                {
+                    "id": 1602,
+                    "district": "Thành phố Việt Trì"
+                },
+                {
+                    "id": 2237,
+                    "district": "Huyện Thanh Thủy"
+                },
+                {
+                    "id": 2268,
+                    "district": "Huyện Yên Lập"
+                },
+                {
+                    "id": 3290,
+                    "district": "Huyện Thanh Ba"
+                },
+                {
+                    "id": 3272,
+                    "district": "Huyện Tam Nông"
+                },
+                {
+                    "id": 2015,
+                    "district": "Huyện Tân Sơn"
+                },
+                {
+                    "id": 1905,
+                    "district": "Huyện Cẩm Khê"
+                },
+                {
+                    "id": 1596,
+                    "district": "Phú Thọ"
+                },
+                {
+                    "id": 1925,
+                    "district": "Huyện Đoan Hùng"
+                },
+                {
+                    "id": 1938,
+                    "district": "Huyện Hạ Hòa"
+                },
+                {
+                    "id": 1959,
+                    "district": "Huyện Lâm Thao"
+                },
+                {
+                    "id": 1994,
+                    "district": "Huyện Phù Ninh"
+                },
+                {
+                    "id": 2029,
+                    "district": "Huyện Thanh Sơn"
+                },
+                {
+                    "id": 2064,
+                    "district": "Thị xã Phú Thọ"
+                }
+            ]
+        },
+        {
+            "id": 220,
+            "city": "Cần Thơ",
+            "districts": [
+                {
+                    "id": 1573,
+                    "district": "Quận Bình Thủy"
+                },
+                {
+                    "id": 1575,
+                    "district": "Quận Ô Môn"
+                },
+                {
+                    "id": 1576,
+                    "district": "Quận Thốt Nốt"
+                },
+                {
+                    "id": 3317,
+                    "district": "Huyện Vĩnh Thạnh"
+                },
+                {
+                    "id": 3300,
+                    "district": "Huyện Thới Lai"
+                },
+                {
+                    "id": 3250,
+                    "district": "Huyện Phong Điền"
+                },
+                {
+                    "id": 3150,
+                    "district": "Huyện Cờ Đỏ"
+                },
+                {
+                    "id": 1571,
+                    "district": "Cần Thơ"
+                },
+                {
+                    "id": 1572,
+                    "district": "Quận Ninh Kiều"
+                },
+                {
+                    "id": 1574,
+                    "district": "Quận Cái Răng"
+                }
+            ]
+        },
+        {
+            "id": 221,
+            "city": "Vĩnh Phúc",
+            "districts": [
+                {
+                    "id": 1578,
+                    "district": "Thành phố Vĩnh Yên"
+                },
+                {
+                    "id": 3271,
+                    "district": "Huyện Tam Đảo"
+                },
+                {
+                    "id": 3265,
+                    "district": "Huyện Sông Lô"
+                },
+                {
+                    "id": 1577,
+                    "district": "Vĩnh Phúc"
+                },
+                {
+                    "id": 1732,
+                    "district": "Huyện Bình Xuyên"
+                },
+                {
+                    "id": 1733,
+                    "district": "Huyện Vĩnh Tường"
+                },
+                {
+                    "id": 1734,
+                    "district": "Huyện Yên Lạc"
+                },
+                {
+                    "id": 1960,
+                    "district": "Huyện Lập Thạch"
+                },
+                {
+                    "id": 2009,
+                    "district": "Huyện Tam Dương"
+                },
+                {
+                    "id": 2065,
+                    "district": "Thị xã Phúc Yên"
+                }
+            ]
+        },
+        {
+            "id": 245,
+            "city": "Bắc Kạn",
+            "districts": [
+                {
+                    "id": 1640,
+                    "district": "Thành phố Bắc Kạn"
+                },
+                {
+                    "id": 3249,
+                    "district": "Huyện Pác Nặm"
+                },
+                {
+                    "id": 3232,
+                    "district": "Huyện Na Rì"
+                },
+                {
+                    "id": 3242,
+                    "district": "Huyện Ngân Sơn"
+                },
+                {
+                    "id": 1634,
+                    "district": "Bắc Kạn"
+                },
+                {
+                    "id": 1887,
+                    "district": "Huyện Ba Bể"
+                },
+                {
+                    "id": 1889,
+                    "district": "Huyện Bạch Thông"
+                },
+                {
+                    "id": 1913,
+                    "district": "Huyện Chợ Đồn"
+                },
+                {
+                    "id": 1914,
+                    "district": "Huyện Chợ Mới"
+                }
+            ]
+        },
+        {
+            "id": 246,
+            "city": "Cao Bằng",
+            "districts": [
+                {
+                    "id": 1641,
+                    "district": "Thành phố Cao Bằng"
+                },
+                {
+                    "id": 3305,
+                    "district": "Huyện Trà Lĩnh"
+                },
+                {
+                    "id": 3299,
+                    "district": "Huyện Thông Nông"
+                },
+                {
+                    "id": 3289,
+                    "district": "Huyện Thạch An"
+                },
+                {
+                    "id": 3259,
+                    "district": "Huyện Quảng Uyên"
+                },
+                {
+                    "id": 3246,
+                    "district": "Huyện Nguyên Bình"
+                },
+                {
+                    "id": 3194,
+                    "district": "Huyện Hạ Lang"
+                },
+                {
+                    "id": 3130,
+                    "district": "Huyện Bảo Lạc"
+                },
+                {
+                    "id": 1635,
+                    "district": "Cao Bằng"
+                },
+                {
+                    "id": 1890,
+                    "district": "Huyện Bảo Lâm"
+                },
+                {
+                    "id": 1939,
+                    "district": "Huyện Hà Quảng"
+                },
+                {
+                    "id": 1943,
+                    "district": "Huyện Hòa An"
+                },
+                {
+                    "id": 1997,
+                    "district": "Huyện Phục Hòa"
+                },
+                {
+                    "id": 2041,
+                    "district": "Huyện Trùng Khánh"
+                }
+            ]
+        },
+        {
+            "id": 236,
+            "city": "Hà Tĩnh",
+            "districts": [
+                {
+                    "id": 1811,
+                    "district": "Huyện Kỳ Anh"
+                },
+                {
+                    "id": 1812,
+                    "district": "Huyện Hương Khê"
+                },
+                {
+                    "id": 1813,
+                    "district": "Huyện Nghi Xuân"
+                },
+                {
+                    "id": 1815,
+                    "district": "Huyện Cẩm Xuyên"
+                },
+                {
+                    "id": 1618,
+                    "district": "Thành phố Hà Tĩnh"
+                },
+                {
+                    "id": 3320,
+                    "district": "Huyện Vũ Quang"
+                },
+                {
+                    "id": 3220,
+                    "district": "Huyện Lộc Hà"
+                },
+                {
+                    "id": 1814,
+                    "district": "Thị xã Hồng Lĩnh"
+                },
+                {
+                    "id": 3188,
+                    "district": "Huyện Đức Thọ"
+                },
+                {
+                    "id": 3143,
+                    "district": "Huyện Can Lộc"
+                },
+                {
+                    "id": 3201,
+                    "district": "Huyện Hương Sơn"
+                },
+                {
+                    "id": 3441,
+                    "district": "Thị xã Kỳ Anh"
+                },
+                {
+                    "id": 1610,
+                    "district": "Hà Tĩnh"
+                },
+                {
+                    "id": 2024,
+                    "district": "Huyện Thạch Hà"
+                }
+            ]
+        },
+        {
+            "id": 204,
+            "city": "Đồng Nai",
+            "districts": [
+                {
+                    "id": 1536,
+                    "district": "Thành phố Biên Hòa"
+                },
+                {
+                    "id": 1691,
+                    "district": "Huyện Trảng Bom"
+                },
+                {
+                    "id": 1693,
+                    "district": "Huyện Tân Phú"
+                },
+                {
+                    "id": 1702,
+                    "district": "Huyện Cẩm Mỹ"
+                },
+                {
+                    "id": 1704,
+                    "district": "Huyện Xuân Lộc"
+                },
+                {
+                    "id": 1705,
+                    "district": "Huyện Thống Nhất"
+                },
+                {
+                    "id": 1708,
+                    "district": "Huyện Nhơn Trạch"
+                },
+                {
+                    "id": 1694,
+                    "district": "Huyện Long Thành"
+                },
+                {
+                    "id": 1700,
+                    "district": "Huyện Định Quán"
+                },
+                {
+                    "id": 1537,
+                    "district": "Đồng Nai"
+                },
+                {
+                    "id": 2049,
+                    "district": "Huyện Vĩnh Cửu"
+                }
+            ]
+        },
+        {
+            "id": 205,
+            "city": "Bình Dương",
+            "districts": [
+                {
+                    "id": 1538,
+                    "district": "Thành phố Thủ Dầu Một"
+                },
+                {
+                    "id": 1540,
+                    "district": "Thị xã Dĩ An"
+                },
+                {
+                    "id": 1541,
+                    "district": "Thị xã Thuận An"
+                },
+                {
+                    "id": 1695,
+                    "district": "Thị xã Tân Uyên"
+                },
+                {
+                    "id": 3132,
+                    "district": "Huyện Bàu Bàng"
+                },
+                {
+                    "id": 1696,
+                    "district": "Thị xã Bến Cát"
+                },
+                {
+                    "id": 3135,
+                    "district": "Huyện Bắc Tân Uyên"
+                },
+                {
+                    "id": 1539,
+                    "district": "Bình Dương"
+                },
+                {
+                    "id": 1746,
+                    "district": "Huyện Dầu Tiếng"
+                },
+                {
+                    "id": 1992,
+                    "district": "Huyện Phú Giáo"
+                }
+            ]
+        },
+        {
+            "id": 248,
+            "city": "Bắc Giang",
+            "districts": [
+                {
+                    "id": 1760,
+                    "district": "Huyện Lạng Giang"
+                },
+                {
+                    "id": 1761,
+                    "district": "Huyện Sơn Động"
+                },
+                {
+                    "id": 1762,
+                    "district": "Huyện Tân Yên"
+                },
+                {
+                    "id": 1763,
+                    "district": "Huyện Việt Yên"
+                },
+                {
+                    "id": 1764,
+                    "district": "Huyện Yên Dũng"
+                },
+                {
+                    "id": 1765,
+                    "district": "Huyện Yên Thế"
+                },
+                {
+                    "id": 1643,
+                    "district": "Thành phố Bắc Giang"
+                },
+                {
+                    "id": 1759,
+                    "district": "Huyện Hiệp Hòa"
+                },
+                {
+                    "id": 1637,
+                    "district": "Bắc Giang"
+                },
+                {
+                    "id": 1965,
+                    "district": "Huyện Lục Nam"
+                },
+                {
+                    "id": 1966,
+                    "district": "Huyện Lục Ngạn"
+                }
+            ]
+        },
+        {
+            "id": 208,
+            "city": "Khánh Hòa",
+            "districts": [
+                {
+                    "id": 1829,
+                    "district": "Huyện Vạn Ninh"
+                },
+                {
+                    "id": 1548,
+                    "district": "Tp. Nha Trang"
+                },
+                {
+                    "id": 1664,
+                    "district": "Thành phố Cam Ranh"
+                },
+                {
+                    "id": 3213,
+                    "district": "Huyện Khánh Vĩnh"
+                },
+                {
+                    "id": 3212,
+                    "district": "Huyện Khánh Sơn"
+                },
+                {
+                    "id": 1547,
+                    "district": "Khánh Hòa"
+                },
+                {
+                    "id": 1739,
+                    "district": "Huyện Diên Khánh"
+                },
+                {
+                    "id": 1902,
+                    "district": "Huyện Cam Lâm"
+                },
+                {
+                    "id": 2061,
+                    "district": "Thị xã Ninh Hòa"
+                },
+                {
+                    "id": 2117,
+                    "district": "Huyện đảo Trường Sa"
+                }
+            ]
+        },
+        {
+            "id": 206,
+            "city": "Bà Rịa – Vũng Tàu",
+            "districts": [
+                {
+                    "id": 1544,
+                    "district": "Thành phố Vũng Tàu"
+                },
+                {
+                    "id": 1688,
+                    "district": "TT Phú Mỹ"
+                },
+                {
+                    "id": 1701,
+                    "district": "Thị Xã Phú Mỹ"
+                },
+                {
+                    "id": 1709,
+                    "district": "Huyện Châu Đức"
+                },
+                {
+                    "id": 1690,
+                    "district": "Huyện Đất Đỏ"
+                },
+                {
+                    "id": 1667,
+                    "district": "Thành phố Bà Rịa"
+                },
+                {
+                    "id": 1699,
+                    "district": "Huyện Xuyên Mộc"
+                },
+                {
+                    "id": 1689,
+                    "district": "Huyện Long Điền"
+                },
+                {
+                    "id": 2111,
+                    "district": "Huyện đảo Côn Đảo"
+                },
+                {
+                    "id": 1543,
+                    "district": "Bà Rịa - Vũng Tàu"
+                }
+            ]
+        },
+        {
+            "id": 232,
+            "city": "Hà Nam",
+            "districts": [
+                {
+                    "id": 1802,
+                    "district": "Huyện Duy Tiên"
+                },
+                {
+                    "id": 1614,
+                    "district": "Thành phố Phủ Lý"
+                },
+                {
+                    "id": 1606,
+                    "district": "Hà Nam"
+                },
+                {
+                    "id": 1897,
+                    "district": "Huyện Bình Lục"
+                },
+                {
+                    "id": 1952,
+                    "district": "Huyện Kim Bảng"
+                },
+                {
+                    "id": 1970,
+                    "district": "Huyện Lý Nhân"
+                },
+                {
+                    "id": 2027,
+                    "district": "Huyện Thanh Liêm"
+                }
+            ]
+        },
+        {
+            "id": 250,
+            "city": "Hậu Giang",
+            "districts": [
+                {
+                    "id": 1824,
+                    "district": "Huyện Phụng Hiệp"
+                },
+                {
+                    "id": 3218,
+                    "district": "Thị xã Long Mỹ"
+                },
+                {
+                    "id": 1653,
+                    "district": "Thành phố Vị Thanh"
+                },
+                {
+                    "id": 1823,
+                    "district": "Thị xã Ngã Bảy"
+                },
+                {
+                    "id": 3445,
+                    "district": "Huyện Long Mỹ"
+                },
+                {
+                    "id": 2096,
+                    "district": "Huyện Châu Thành"
+                },
+                {
+                    "id": 1645,
+                    "district": "Hậu Giang"
+                },
+                {
+                    "id": 1912,
+                    "district": "Huyện Châu Thành A"
+                },
+                {
+                    "id": 2048,
+                    "district": "Huyện Vị Thuỷ"
+                }
+            ]
+        },
+        {
+            "id": 202,
+            "city": "Hồ Chí Minh",
+            "districts": [
+                {
+                    "id": 1454,
+                    "district": "Quận 12"
+                },
+                {
+                    "id": 1453,
+                    "district": "Quận 11"
+                },
+                {
+                    "id": 1452,
+                    "district": "Quận 10"
+                },
+                {
+                    "id": 1451,
+                    "district": "Quận 9"
+                },
+                {
+                    "id": 1450,
+                    "district": "Quận 8"
+                },
+                {
+                    "id": 1449,
+                    "district": "Quận 7"
+                },
+                {
+                    "id": 1448,
+                    "district": "Quận 6"
+                },
+                {
+                    "id": 1447,
+                    "district": "Quận 5"
+                },
+                {
+                    "id": 1446,
+                    "district": "Quận 4"
+                },
+                {
+                    "id": 1444,
+                    "district": "Quận 3"
+                },
+                {
+                    "id": 1443,
+                    "district": "Quận 2"
+                },
+                {
+                    "id": 1442,
+                    "district": "Quận 1"
+                },
+                {
+                    "id": 1455,
+                    "district": "Quận Tân Bình"
+                },
+                {
+                    "id": 1456,
+                    "district": "Quận Tân Phú"
+                },
+                {
+                    "id": 1457,
+                    "district": "Quận Phú Nhuận"
+                },
+                {
+                    "id": 1458,
+                    "district": "Quận Bình Tân"
+                },
+                {
+                    "id": 1459,
+                    "district": "Huyện Hóc Môn"
+                },
+                {
+                    "id": 1460,
+                    "district": "Huyện Củ Chi"
+                },
+                {
+                    "id": 1461,
+                    "district": "Quận Gò Vấp"
+                },
+                {
+                    "id": 1462,
+                    "district": "Quận Bình Thạnh"
+                },
+                {
+                    "id": 1463,
+                    "district": "Quận Thủ Đức"
+                },
+                {
+                    "id": 1533,
+                    "district": "Huyện Bình Chánh"
+                },
+                {
+                    "id": 1534,
+                    "district": "Huyện Nhà Bè"
+                },
+                {
+                    "id": 1692,
+                    "district": "Quận BIC"
+                },
+                {
+                    "id": 3692,
+                    "district": "BKN"
+                },
+                {
+                    "id": 3693,
+                    "district": "Cần giờ"
+                },
+                {
+                    "id": 1464,
+                    "district": "Tp HCM"
+                },
+                {
+                    "id": 2090,
+                    "district": "Huyện Cần Giờ"
+                }
+            ]
+        },
+        {
+            "id": 237,
+            "city": "Quảng Bình",
+            "districts": [
+                {
+                    "id": 1857,
+                    "district": "Huyện Lệ Thủy"
+                },
+                {
+                    "id": 1858,
+                    "district": "Huyện Bố Trạch"
+                },
+                {
+                    "id": 1619,
+                    "district": "Thành phố Đồng Hới"
+                },
+                {
+                    "id": 1859,
+                    "district": "Thị xã Ba Đồn"
+                },
+                {
+                    "id": 3286,
+                    "district": "Huyện Tuyên Hóa"
+                },
+                {
+                    "id": 3224,
+                    "district": "Huyện Minh Hóa"
+                },
+                {
+                    "id": 3258,
+                    "district": "Huyện Quảng Trạch"
+                },
+                {
+                    "id": 1611,
+                    "district": "Quảng Bình"
+                },
+                {
+                    "id": 2002,
+                    "district": "Huyện Quảng Ninh"
+                }
+            ]
+        },
+        {
+            "id": 207,
+            "city": "Gia Lai",
+            "districts": [
+                {
+                    "id": 1793,
+                    "district": "Huyện Ia Grai"
+                },
+                {
+                    "id": 1795,
+                    "district": "Huyện Chư Prông"
+                },
+                {
+                    "id": 1796,
+                    "district": "Huyện Chư Sê"
+                },
+                {
+                    "id": 1797,
+                    "district": "Huyện Phú Thiện"
+                },
+                {
+                    "id": 1801,
+                    "district": "Huyện Chư Păh"
+                },
+                {
+                    "id": 1546,
+                    "district": "Thành phố Pleiku"
+                },
+                {
+                    "id": 2144,
+                    "district": "Huyện Kbang"
+                },
+                {
+                    "id": 2149,
+                    "district": "Huyện Kông Chro"
+                },
+                {
+                    "id": 2152,
+                    "district": "Huyện Krông Pa"
+                },
+                {
+                    "id": 2165,
+                    "district": "Huyện Mang Yang"
+                },
+                {
+                    "id": 1794,
+                    "district": "Huyện Đức Cơ"
+                },
+                {
+                    "id": 1798,
+                    "district": "Thị xã Ayun Pa"
+                },
+                {
+                    "id": 1799,
+                    "district": "Huyện Ia Pa"
+                },
+                {
+                    "id": 1800,
+                    "district": "Thị xã An Khê"
+                },
+                {
+                    "id": 2101,
+                    "district": "Huyện Chư Pưh"
+                },
+                {
+                    "id": 2118,
+                    "district": "Huyện Đắk Đoa"
+                },
+                {
+                    "id": 2119,
+                    "district": "Huyện Đắk Pơ"
+                },
+                {
+                    "id": 1545,
+                    "district": "Gia Lai"
+                }
+            ]
+        },
+        {
+            "id": 234,
+            "city": "Thanh Hóa",
+            "districts": [
+                {
+                    "id": 1870,
+                    "district": "Huyện Tĩnh Gia"
+                },
+                {
+                    "id": 1872,
+                    "district": "Huyện Thường Xuân"
+                },
+                {
+                    "id": 1873,
+                    "district": "Huyện Thọ Xuân"
+                },
+                {
+                    "id": 1874,
+                    "district": "Huyện Ngọc Lặc"
+                },
+                {
+                    "id": 1875,
+                    "district": "Huyện Yên Định"
+                },
+                {
+                    "id": 1878,
+                    "district": "Huyện Mường Lát"
+                },
+                {
+                    "id": 1879,
+                    "district": "Huyện Quan Hóa"
+                },
+                {
+                    "id": 1880,
+                    "district": "Huyện Thạch Thành"
+                },
+                {
+                    "id": 1881,
+                    "district": "Huyện Vĩnh Lộc"
+                },
+                {
+                    "id": 1616,
+                    "district": "Thành phố Thanh Hóa"
+                },
+                {
+                    "id": 1712,
+                    "district": "Thị xã Sầm Sơn"
+                },
+                {
+                    "id": 1871,
+                    "district": "Huyện Như Xuân"
+                },
+                {
+                    "id": 1876,
+                    "district": "Thị xã Bỉm Sơn"
+                },
+                {
+                    "id": 1877,
+                    "district": "Huyện Hà Trung"
+                },
+                {
+                    "id": 2181,
+                    "district": "Huyện Nông Cống"
+                },
+                {
+                    "id": 2190,
+                    "district": "Huyện Như Thanh"
+                },
+                {
+                    "id": 2249,
+                    "district": "Huyện Triệu Sơn"
+                },
+                {
+                    "id": 1747,
+                    "district": "Huyện Quảng Xương"
+                },
+                {
+                    "id": 1748,
+                    "district": "Huyện Hoằng Hóa"
+                },
+                {
+                    "id": 3241,
+                    "district": "Huyện Nga Sơn"
+                },
+                {
+                    "id": 3298,
+                    "district": "Huyện Thiệu Hóa"
+                },
+                {
+                    "id": 3216,
+                    "district": "Huyện Lang Chánh"
+                },
+                {
+                    "id": 2070,
+                    "district": "Huyện Bá Thước"
+                },
+                {
+                    "id": 3147,
+                    "district": "Huyện Cẩm Thủy"
+                },
+                {
+                    "id": 1608,
+                    "district": "Thanh Hoá"
+                },
+                {
+                    "id": 1927,
+                    "district": "Huyện Đông Sơn"
+                },
+                {
+                    "id": 1942,
+                    "district": "Huyện Hậu Lộc"
+                },
+                {
+                    "id": 2000,
+                    "district": "Huyện Quan Sơn"
+                }
+            ]
+        },
+        {
+            "id": 247,
+            "city": "Lạng Sơn",
+            "districts": [
+                {
+                    "id": 1642,
+                    "district": "Thành phố Lạng Sơn"
+                },
+                {
+                    "id": 3311,
+                    "district": "Huyện Văn Quan"
+                },
+                {
+                    "id": 3310,
+                    "district": "Huyện Văn Lãng"
+                },
+                {
+                    "id": 3138,
+                    "district": "Huyện Bình Gia"
+                },
+                {
+                    "id": 3134,
+                    "district": "Huyện Bắc Sơn"
+                },
+                {
+                    "id": 3182,
+                    "district": "Huyện Đình Lập"
+                },
+                {
+                    "id": 3156,
+                    "district": "Huyện Chi Lăng"
+                },
+                {
+                    "id": 1636,
+                    "district": "Lạng Sơn"
+                },
+                {
+                    "id": 1904,
+                    "district": "Huyện Cao Lộc"
+                },
+                {
+                    "id": 1948,
+                    "district": "Huyện Hữu Lũng"
+                },
+                {
+                    "id": 1963,
+                    "district": "Huyện Lộc Bình"
+                },
+                {
+                    "id": 2036,
+                    "district": "Huyện Tràng Định"
+                }
+            ]
+        },
+        {
+            "id": 244,
+            "city": "Thái Nguyên",
+            "districts": [
+                {
+                    "id": 2195,
+                    "district": "Huyện Phú Lương"
+                },
+                {
+                    "id": 1639,
+                    "district": "Thành phố Thái Nguyên"
+                },
+                {
+                    "id": 1684,
+                    "district": "Thị xã Sông Công"
+                },
+                {
+                    "id": 1918,
+                    "district": "Huyện Đại Từ"
+                },
+                {
+                    "id": 1633,
+                    "district": "Thái Nguyên"
+                },
+                {
+                    "id": 1731,
+                    "district": "Huyện Đồng Hỷ"
+                },
+                {
+                    "id": 1924,
+                    "district": "Huyện Định Hóa"
+                },
+                {
+                    "id": 1990,
+                    "district": "Huyện Phổ Yên"
+                },
+                {
+                    "id": 1991,
+                    "district": "Huyện Phú Bình"
+                },
+                {
+                    "id": 2051,
+                    "district": "Huyện Võ Nhai"
+                }
+            ]
+        },
+        {
+            "id": 201,
+            "city": "Hà Nội",
+            "districts": [
+                {
+                    "id": 1535,
+                    "district": "Hà Nội"
+                },
+                {
+                    "id": 1542,
+                    "district": "Quận Hà Đông"
+                },
+                {
+                    "id": 1482,
+                    "district": "Quận Bắc Từ Liêm"
+                },
+                {
+                    "id": 1484,
+                    "district": "Quận Ba Đình"
+                },
+                {
+                    "id": 1485,
+                    "district": "Quận Cầu Giấy"
+                },
+                {
+                    "id": 1486,
+                    "district": "Quận Đống Đa"
+                },
+                {
+                    "id": 1488,
+                    "district": "Quận Hai Bà Trưng"
+                },
+                {
+                    "id": 1489,
+                    "district": "Quận Hoàn Kiếm"
+                },
+                {
+                    "id": 1490,
+                    "district": "Quận Hoàng Mai"
+                },
+                {
+                    "id": 1491,
+                    "district": "Quận Long Biên"
+                },
+                {
+                    "id": 1492,
+                    "district": "Quận Tây Hồ"
+                },
+                {
+                    "id": 1493,
+                    "district": "Quận Thanh Xuân"
+                },
+                {
+                    "id": 1581,
+                    "district": "Huyện Mê Linh"
+                },
+                {
+                    "id": 1582,
+                    "district": "Huyện Đông Anh"
+                },
+                {
+                    "id": 1583,
+                    "district": "Huyện Sóc Sơn"
+                },
+                {
+                    "id": 1703,
+                    "district": "Huyện Gia Lâm"
+                },
+                {
+                    "id": 1710,
+                    "district": "Huyện Thanh Trì"
+                },
+                {
+                    "id": 1711,
+                    "district": "Thị xã Sơn Tây"
+                },
+                {
+                    "id": 3440,
+                    "district": "Quận Nam Từ Liêm"
+                },
+                {
+                    "id": 3255,
+                    "district": "Huyện Phú Xuyên"
+                },
+                {
+                    "id": 1803,
+                    "district": "Huyện Ba Vì"
+                },
+                {
+                    "id": 1804,
+                    "district": "Huyện Đan Phượng"
+                },
+                {
+                    "id": 1805,
+                    "district": "Huyện Hoài Đức"
+                },
+                {
+                    "id": 1806,
+                    "district": "Huyện Mỹ Đức"
+                },
+                {
+                    "id": 1807,
+                    "district": "Huyện Phúc Thọ"
+                },
+                {
+                    "id": 1808,
+                    "district": "Huyện Thạch Thất"
+                },
+                {
+                    "id": 1809,
+                    "district": "Huyện Thanh Oai"
+                },
+                {
+                    "id": 1810,
+                    "district": "Huyện Ứng Hòa"
+                },
+                {
+                    "id": 3303,
+                    "district": "Huyện Thường Tín"
+                },
+                {
+                    "id": 1915,
+                    "district": "Huyện Chương Mỹ"
+                },
+                {
+                    "id": 2004,
+                    "district": "Huyện Quốc Oai "
+                }
+            ]
+        },
+        {
+            "id": 260,
+            "city": "Phú Yên",
+            "districts": [
+                {
+                    "id": 1856,
+                    "district": "Thị Xã Sông Cầu"
+                },
+                {
+                    "id": 1685,
+                    "district": "Phú Yên"
+                },
+                {
+                    "id": 3278,
+                    "district": "Huyện Tây Hòa"
+                },
+                {
+                    "id": 3186,
+                    "district": "Huyện Đồng Xuân"
+                },
+                {
+                    "id": 3184,
+                    "district": "Huyện Đông Hòa"
+                },
+                {
+                    "id": 2206,
+                    "district": "Huyện Sông Hinh"
+                },
+                {
+                    "id": 2211,
+                    "district": "Huyện Sơn Hòa"
+                },
+                {
+                    "id": 1663,
+                    "district": "Thành phố Tuy Hòa"
+                },
+                {
+                    "id": 3284,
+                    "district": "Huyện Tuy An"
+                },
+                {
+                    "id": 1658,
+                    "district": "Phú Yên"
+                },
+                {
+                    "id": 1993,
+                    "district": "Huyện Phú Hòa"
+                }
+            ]
+        },
+        {
+            "id": 214,
+            "city": "Trà Vinh",
+            "districts": [
+                {
+                    "id": 1560,
+                    "district": "Thành phố Trà Vinh"
+                },
+                {
+                    "id": 3443,
+                    "district": "Thị xã Duyên Hải"
+                },
+                {
+                    "id": 2086,
+                    "district": "Huyện Càng Long"
+                },
+                {
+                    "id": 2091,
+                    "district": "Huyện Cầu Kè"
+                },
+                {
+                    "id": 2103,
+                    "district": "Huyện Duyên Hải"
+                },
+                {
+                    "id": 1559,
+                    "district": "Trà Vinh"
+                },
+                {
+                    "id": 1908,
+                    "district": "Huyện Cầu Ngang"
+                },
+                {
+                    "id": 1911,
+                    "district": "Huyện Châu Thành"
+                },
+                {
+                    "id": 2020,
+                    "district": "Huyện Tiểu Cần"
+                },
+                {
+                    "id": 2033,
+                    "district": "Huyện Trà Cú"
+                }
+            ]
+        },
+        {
+            "id": 227,
+            "city": "Hà Giang",
+            "districts": [
+                {
+                    "id": 1600,
+                    "district": "Thành phố Hà Giang"
+                },
+                {
+                    "id": 2256,
+                    "district": "Huyện Vị Xuyên"
+                },
+                {
+                    "id": 2075,
+                    "district": "Huyện Bắc Mê"
+                },
+                {
+                    "id": 1893,
+                    "district": "Huyện Bắc Quang"
+                },
+                {
+                    "id": 1594,
+                    "district": "Hà Giang"
+                },
+                {
+                    "id": 1928,
+                    "district": "Huyện Đồng Văn"
+                },
+                {
+                    "id": 1945,
+                    "district": "Huyện Hoàng Su Phì"
+                },
+                {
+                    "id": 1973,
+                    "district": "Huyện Mèo Vạc"
+                },
+                {
+                    "id": 1999,
+                    "district": "Huyện Quản Bạ"
+                },
+                {
+                    "id": 2001,
+                    "district": "Huyện Quang Bình"
+                },
+                {
+                    "id": 2052,
+                    "district": "Huyện Xín Mần"
+                },
+                {
+                    "id": 2053,
+                    "district": "Huyện Yên Minh"
+                }
+            ]
+        },
+        {
+            "id": 241,
+            "city": "Đắk Nông",
+            "districts": [
+                {
+                    "id": 1790,
+                    "district": "Huyện Đắk R lấp"
+                },
+                {
+                    "id": 1792,
+                    "district": "Huyện Đắk Mil"
+                },
+                {
+                    "id": 2151,
+                    "district": "Huyện Krông Nô"
+                },
+                {
+                    "id": 3152,
+                    "district": "Huyện Cư Jút"
+                },
+                {
+                    "id": 2227,
+                    "district": "Huyện Tuy Đức"
+                },
+                {
+                    "id": 1627,
+                    "district": "Thị xã Gia Nghĩa"
+                },
+                {
+                    "id": 1791,
+                    "district": "Huyện Đắk Glong"
+                },
+                {
+                    "id": 2120,
+                    "district": "Huyện Đắk Song"
+                },
+                {
+                    "id": 1624,
+                    "district": "Đắc Nông"
+                }
+            ]
+        },
+        {
+            "id": 268,
+            "city": "Hưng Yên",
+            "districts": [
+                {
+                    "id": 1825,
+                    "district": "Huyện Ân Thi"
+                },
+                {
+                    "id": 1826,
+                    "district": "Huyện Khoái Châu"
+                },
+                {
+                    "id": 1827,
+                    "district": "Huyện Mỹ Hào"
+                },
+                {
+                    "id": 1828,
+                    "district": "Huyện Yên Mỹ"
+                },
+                {
+                    "id": 1680,
+                    "district": "Thành phố Hưng Yên"
+                },
+                {
+                    "id": 1717,
+                    "district": "Huyện Kim Động"
+                },
+                {
+                    "id": 2194,
+                    "district": "Huyện Phù Cừ"
+                },
+                {
+                    "id": 1679,
+                    "district": "Hưng Yên"
+                },
+                {
+                    "id": 2018,
+                    "district": "Huyện Tiên Lữ"
+                },
+                {
+                    "id": 2045,
+                    "district": "Huyện Văn Giang"
+                },
+                {
+                    "id": 2046,
+                    "district": "Huyện Văn Lâm"
+                }
+            ]
+        },
+        {
+            "id": 224,
+            "city": "Hải Phòng",
+            "districts": [
+                {
+                    "id": 1586,
+                    "district": "Hải Phòng"
+                },
+                {
+                    "id": 1591,
+                    "district": "Quận Hải An"
+                },
+                {
+                    "id": 1707,
+                    "district": "Quận Đồ Sơn"
+                },
+                {
+                    "id": 1706,
+                    "district": "Quận Dương Kinh"
+                },
+                {
+                    "id": 1819,
+                    "district": "Huyện An Dương"
+                },
+                {
+                    "id": 1820,
+                    "district": "Huyện An Lão"
+                },
+                {
+                    "id": 1821,
+                    "district": "Huyện Tiên Lãng"
+                },
+                {
+                    "id": 1822,
+                    "district": "Huyện Vĩnh Bảo"
+                },
+                {
+                    "id": 3203,
+                    "district": "Huyện Kiến Thụy"
+                },
+                {
+                    "id": 1587,
+                    "district": "Quận Ngô Quyền"
+                },
+                {
+                    "id": 1588,
+                    "district": "Quận Lê Chân"
+                },
+                {
+                    "id": 1590,
+                    "district": "Quận Kiến An"
+                },
+                {
+                    "id": 1589,
+                    "district": "Quận Hồng Bàng"
+                },
+                {
+                    "id": 1726,
+                    "district": "Huyện Thủy Nguyên"
+                },
+                {
+                    "id": 2107,
+                    "district": "Huyện đảo Bạch Long Vĩ"
+                },
+                {
+                    "id": 2108,
+                    "district": "Huyện đảo Cát Hải"
+                }
+            ]
+        },
+        {
+            "id": 216,
+            "city": "Đồng Tháp",
+            "districts": [
+                {
+                    "id": 1564,
+                    "district": "Thành phố Cao Lãnh"
+                },
+                {
+                    "id": 3155,
+                    "district": "Huyện Châu Thành"
+                },
+                {
+                    "id": 3200,
+                    "district": "Huyện Hồng Ngự"
+                },
+                {
+                    "id": 1668,
+                    "district": "Thành phố Sa Đéc"
+                },
+                {
+                    "id": 1563,
+                    "district": "Đồng Tháp"
+                },
+                {
+                    "id": 1724,
+                    "district": "Huyện Cao Lãnh"
+                },
+                {
+                    "id": 1725,
+                    "district": "Huyện Lai Vung"
+                },
+                {
+                    "id": 1961,
+                    "district": "Huyện Lấp Vò"
+                },
+                {
+                    "id": 2011,
+                    "district": "Huyện Tam Nông"
+                },
+                {
+                    "id": 2013,
+                    "district": "Huyện Tân Hồng"
+                },
+                {
+                    "id": 2026,
+                    "district": "Huyện Thanh Bình"
+                },
+                {
+                    "id": 2030,
+                    "district": "Huyện Tháp Mười"
+                },
+                {
+                    "id": 2059,
+                    "district": "Thị xã Hồng Ngự"
+                }
+            ]
+        },
+        {
+            "id": 233,
+            "city": "Ninh Bình",
+            "districts": [
+                {
+                    "id": 1713,
+                    "district": "Thị xã Tam Điệp"
+                },
+                {
+                    "id": 1714,
+                    "district": "Huyện Yên Khánh"
+                },
+                {
+                    "id": 3327,
+                    "district": "Huyện Yên Mô"
+                },
+                {
+                    "id": 3205,
+                    "district": "Huyện Kim Sơn"
+                },
+                {
+                    "id": 3191,
+                    "district": "Huyện Gia Viễn"
+                },
+                {
+                    "id": 1615,
+                    "district": "Thành phố Ninh Bình"
+                },
+                {
+                    "id": 3247,
+                    "district": "Huyện Nho Quan"
+                },
+                {
+                    "id": 1607,
+                    "district": "Ninh Bình"
+                },
+                {
+                    "id": 1944,
+                    "district": "Huyện Hoa Lư"
+                }
+            ]
+        },
+        {
+            "id": 264,
+            "city": "Lai Châu",
+            "districts": [
+                {
+                    "id": 1675,
+                    "district": "Thành phố Lai Châu"
+                },
+                {
+                    "id": 1980,
+                    "district": "Huyện Mường Tè"
+                },
+                {
+                    "id": 1984,
+                    "district": "Huyện Nậm Nhùm"
+                },
+                {
+                    "id": 1670,
+                    "district": "Lai Châu"
+                },
+                {
+                    "id": 1989,
+                    "district": "Huyện Phong Thổ"
+                },
+                {
+                    "id": 2006,
+                    "district": "Huyện Sìn Hồ"
+                },
+                {
+                    "id": 2010,
+                    "district": "Huyện Tam Đường"
+                },
+                {
+                    "id": 2017,
+                    "district": "Huyện Tân Uyên"
+                },
+                {
+                    "id": 2025,
+                    "district": "Huyện Than Uyên"
+                }
+            ]
+        },
+        {
+            "id": 262,
+            "city": "Bình Định",
+            "districts": [
+                {
+                    "id": 1770,
+                    "district": "Huyện Phù Cát"
+                },
+                {
+                    "id": 1771,
+                    "district": "Huyện Hoài Nhơn"
+                },
+                {
+                    "id": 1886,
+                    "district": "Huyện An Lão"
+                },
+                {
+                    "id": 3312,
+                    "district": "Huyện Vân Canh"
+                },
+                {
+                    "id": 3279,
+                    "district": "Huyện Tây Sơn"
+                },
+                {
+                    "id": 2140,
+                    "district": "Huyện Hoài Ân"
+                },
+                {
+                    "id": 3254,
+                    "district": "Huyện Phù Mỹ"
+                },
+                {
+                    "id": 2258,
+                    "district": "Huyện Vĩnh Thạnh"
+                },
+                {
+                    "id": 1662,
+                    "district": "Thành phố Quy Nhơn"
+                },
+                {
+                    "id": 1769,
+                    "district": "Thị xã An Nhơn"
+                },
+                {
+                    "id": 1661,
+                    "district": "Bình Định "
+                },
+                {
+                    "id": 2023,
+                    "district": "Huyện Tuy Phước"
+                }
+            ]
+        },
+        {
+            "id": 210,
+            "city": "Đắk Lắk",
+            "districts": [
+                {
+                    "id": 1784,
+                    "district": "Huyện Buôn Ðôn"
+                },
+                {
+                    "id": 1785,
+                    "district": "Huyện Cư M gar"
+                },
+                {
+                    "id": 1786,
+                    "district": "Huyện Ea H leo"
+                },
+                {
+                    "id": 1787,
+                    "district": "Huyện Krông Năng"
+                },
+                {
+                    "id": 1789,
+                    "district": "Huyện Krông Bông"
+                },
+                {
+                    "id": 1552,
+                    "district": "Thành phố Buôn Ma Thuột"
+                },
+                {
+                    "id": 1884,
+                    "district": "Huyện Krông Ana"
+                },
+                {
+                    "id": 2131,
+                    "district": "Huyện Ea Súp"
+                },
+                {
+                    "id": 3217,
+                    "district": "Huyện Lắk"
+                },
+                {
+                    "id": 2150,
+                    "district": "Huyện Krông Búk"
+                },
+                {
+                    "id": 3418,
+                    "district": "Huyện M đrắk"
+                },
+                {
+                    "id": 1788,
+                    "district": "Thị xã Buôn Hồ"
+                },
+                {
+                    "id": 3153,
+                    "district": "Huyện Cư Kuin"
+                },
+                {
+                    "id": 1551,
+                    "district": "ĐĂK LĂK"
+                },
+                {
+                    "id": 1931,
+                    "district": "Huyện Ea Kar"
+                },
+                {
+                    "id": 1954,
+                    "district": "Huyện Krông Pắc"
+                }
+            ]
+        },
+        {
+            "id": 211,
+            "city": "Long An",
+            "districts": [
+                {
+                    "id": 1554,
+                    "district": "Thành phố Tân An"
+                },
+                {
+                    "id": 2129,
+                    "district": "Huyện Đức Huệ"
+                },
+                {
+                    "id": 3315,
+                    "district": "Huyện Vĩnh Hưng"
+                },
+                {
+                    "id": 3293,
+                    "district": "Huyện Thạnh Hóa"
+                },
+                {
+                    "id": 3276,
+                    "district": "Huyện Tân Thạnh"
+                },
+                {
+                    "id": 3273,
+                    "district": "Huyện Tân Hưng"
+                },
+                {
+                    "id": 3227,
+                    "district": "Huyện Mộc Hóa"
+                },
+                {
+                    "id": 3329,
+                    "district": "Thị xã Kiến Tường"
+                },
+                {
+                    "id": 1553,
+                    "district": "Long An"
+                },
+                {
+                    "id": 1894,
+                    "district": "Huyện Bến Lức"
+                },
+                {
+                    "id": 1906,
+                    "district": "Huyện Cần Đước"
+                },
+                {
+                    "id": 1907,
+                    "district": "Huyện Cần Giuộc"
+                },
+                {
+                    "id": 1909,
+                    "district": "Huyện Châu Thành"
+                },
+                {
+                    "id": 1929,
+                    "district": "Huyện Đức Hòa"
+                },
+                {
+                    "id": 2016,
+                    "district": "Huyện Tân Trụ"
+                },
+                {
+                    "id": 2031,
+                    "district": "Huyện Thủ Thừa"
+                }
+            ]
+        },
+        {
+            "id": 223,
+            "city": "Thừa Thiên – Huế",
+            "districts": [
+                {
+                    "id": 1882,
+                    "district": "Huyện Phú Lộc"
+                },
+                {
+                    "id": 1585,
+                    "district": "Thành phố Huế"
+                },
+                {
+                    "id": 1749,
+                    "district": "Huyện Phú Vang"
+                },
+                {
+                    "id": 2193,
+                    "district": "Huyện Phong Điền"
+                },
+                {
+                    "id": 1697,
+                    "district": "Thị xã Hương Trà"
+                },
+                {
+                    "id": 1698,
+                    "district": "Thị xã Hương Thủy"
+                },
+                {
+                    "id": 3234,
+                    "district": "Huyện Nam Đông"
+                },
+                {
+                    "id": 3257,
+                    "district": "Huyện Quảng Điền"
+                },
+                {
+                    "id": 1584,
+                    "district": "Thừa Thiên Huế"
+                },
+                {
+                    "id": 1885,
+                    "district": "Huyện A Lưới"
+                }
+            ]
+        },
+        {
+            "id": 263,
+            "city": "Yên Bái",
+            "districts": [
+                {
+                    "id": 1674,
+                    "district": "Thành phố Yên Bái"
+                },
+                {
+                    "id": 2248,
+                    "district": "Huyện Trạm Tấu"
+                },
+                {
+                    "id": 2266,
+                    "district": "Huyện Yên Bình"
+                },
+                {
+                    "id": 1669,
+                    "district": "Yên Bái"
+                },
+                {
+                    "id": 1967,
+                    "district": "Huyện Lục Yên"
+                },
+                {
+                    "id": 1977,
+                    "district": "Huyện Mù Cang Chải"
+                },
+                {
+                    "id": 2039,
+                    "district": "Huyện Trấn Yên"
+                },
+                {
+                    "id": 2044,
+                    "district": "Huyện Văn Chấn"
+                },
+                {
+                    "id": 2047,
+                    "district": "Huyện Văn Yên"
+                },
+                {
+                    "id": 2063,
+                    "district": "Thị xã Nghĩa Lộ"
+                }
+            ]
+        },
+        {
+            "id": 243,
+            "city": "Quảng Nam",
+            "districts": [
+                {
+                    "id": 1631,
+                    "district": "Thành phố Tam Kỳ"
+                },
+                {
+                    "id": 1632,
+                    "district": "Thành phố Hội An"
+                },
+                {
+                    "id": 1735,
+                    "district": "Huyện Duy Xuyên"
+                },
+                {
+                    "id": 2125,
+                    "district": "Huyện Đông Giang"
+                },
+                {
+                    "id": 2139,
+                    "district": "Huyện Hiệp Đức"
+                },
+                {
+                    "id": 2177,
+                    "district": "Huyện Nam Giang"
+                },
+                {
+                    "id": 2178,
+                    "district": "Huyện Nam Trà My"
+                },
+                {
+                    "id": 2182,
+                    "district": "Huyện Nông Sơn"
+                },
+                {
+                    "id": 2198,
+                    "district": "Huyện Phước Sơn"
+                },
+                {
+                    "id": 2219,
+                    "district": "Huyện Tây Giang"
+                },
+                {
+                    "id": 2224,
+                    "district": "Huyện Tiên Phước"
+                },
+                {
+                    "id": 2239,
+                    "district": "Huyện Thăng Bình"
+                },
+                {
+                    "id": 2078,
+                    "district": "Huyện Bắc Trà My"
+                },
+                {
+                    "id": 1629,
+                    "district": "Quảng Nam"
+                },
+                {
+                    "id": 1736,
+                    "district": "Huyện Điện Bàn"
+                },
+                {
+                    "id": 1917,
+                    "district": "Huyện Đại Lộc"
+                },
+                {
+                    "id": 1987,
+                    "district": "Huyện Núi Thành"
+                },
+                {
+                    "id": 1995,
+                    "district": "Huyện Phú Ninh"
+                },
+                {
+                    "id": 2003,
+                    "district": "Huyện Quế Sơn"
+                }
+            ]
+        },
+        {
+            "id": 217,
+            "city": "An Giang",
+            "districts": [
+                {
+                    "id": 1750,
+                    "district": "Huyện Thoại Sơn"
+                },
+                {
+                    "id": 1751,
+                    "district": "Huyện Tri Tôn"
+                },
+                {
+                    "id": 1752,
+                    "district": "Huyện Tịnh Biên"
+                },
+                {
+                    "id": 1753,
+                    "district": "Thành phố Châu Đốc"
+                },
+                {
+                    "id": 1754,
+                    "district": "Huyện An Phú"
+                },
+                {
+                    "id": 1755,
+                    "district": "Huyện Tân Châu"
+                },
+                {
+                    "id": 1756,
+                    "district": "Huyện Phú Tân"
+                },
+                {
+                    "id": 1758,
+                    "district": "Huyện Châu Phú"
+                },
+                {
+                    "id": 1565,
+                    "district": "An Giang"
+                },
+                {
+                    "id": 1566,
+                    "district": "Thành phố Long Xuyên"
+                },
+                {
+                    "id": 1757,
+                    "district": "Huyện Chợ Mới"
+                },
+                {
+                    "id": 1718,
+                    "district": "Huyện Châu Thành"
+                }
+            ]
+        },
+        {
+            "id": 240,
+            "city": "Tây Ninh",
+            "districts": [
+                {
+                    "id": 1862,
+                    "district": "Huyện Tân Biên"
+                },
+                {
+                    "id": 1864,
+                    "district": "Huyện Dương Minh Châu"
+                },
+                {
+                    "id": 1865,
+                    "district": "Huyện Bến Cầu"
+                },
+                {
+                    "id": 1866,
+                    "district": "Huyện Gò Dầu"
+                },
+                {
+                    "id": 1863,
+                    "district": "Huyện Tân Châu"
+                },
+                {
+                    "id": 1626,
+                    "district": "Thành phố Tây Ninh"
+                },
+                {
+                    "id": 1623,
+                    "district": "Tây Ninh"
+                },
+                {
+                    "id": 1720,
+                    "district": "Huyện Châu Thành"
+                },
+                {
+                    "id": 1721,
+                    "district": "Huyện Hòa Thành"
+                },
+                {
+                    "id": 2035,
+                    "district": "Huyện Trảng Bàng"
+                }
+            ]
+        },
+        {
+            "id": 249,
+            "city": "Bắc Ninh",
+            "districts": [
+                {
+                    "id": 1766,
+                    "district": "Huyện Gia Bình"
+                },
+                {
+                    "id": 1767,
+                    "district": "Huyện Thuận Thành"
+                },
+                {
+                    "id": 1768,
+                    "district": "Huyện Yên Phong"
+                },
+                {
+                    "id": 1644,
+                    "district": "Thành phố Bắc Ninh"
+                },
+                {
+                    "id": 1730,
+                    "district": "Thị xã Từ Sơn"
+                },
+                {
+                    "id": 1638,
+                    "district": "Bắc Ninh"
+                },
+                {
+                    "id": 1728,
+                    "district": "Huyện Quế Võ"
+                },
+                {
+                    "id": 1729,
+                    "district": "Huyện Tiên Du"
+                },
+                {
+                    "id": 1969,
+                    "district": "Huyện Lương Tài"
+                }
+            ]
+        },
+        {
+            "id": 266,
+            "city": "Sơn La",
+            "districts": [
+                {
+                    "id": 1677,
+                    "district": "Thành phố Sơn La"
+                },
+                {
+                    "id": 2204,
+                    "district": "Huyện Quỳnh Nhai"
+                },
+                {
+                    "id": 2255,
+                    "district": "Huyện Vân Hồ"
+                },
+                {
+                    "id": 2267,
+                    "district": "Huyện Yên Châu"
+                },
+                {
+                    "id": 3266,
+                    "district": "huyện Sốp Cộp"
+                },
+                {
+                    "id": 3230,
+                    "district": "Huyện Mường La"
+                },
+                {
+                    "id": 2079,
+                    "district": "Huyện Bắc Yên"
+                },
+                {
+                    "id": 1672,
+                    "district": "Sơn La"
+                },
+                {
+                    "id": 1971,
+                    "district": "Huyện Mai Sơn"
+                },
+                {
+                    "id": 1976,
+                    "district": "Huyện Mộc Châu"
+                },
+                {
+                    "id": 1996,
+                    "district": "Huyện Phù Yên"
+                },
+                {
+                    "id": 2007,
+                    "district": "Huyện Sông Mã"
+                },
+                {
+                    "id": 2032,
+                    "district": "Huyện Thuận Châu"
+                }
+            ]
+        },
+        {
+            "id": 238,
+            "city": "Quảng Trị",
+            "districts": [
+                {
+                    "id": 1861,
+                    "district": "Huyện Vĩnh Linh"
+                },
+                {
+                    "id": 1620,
+                    "district": "Thành phố Đông Hà"
+                },
+                {
+                    "id": 1621,
+                    "district": "Thị xã Quảng Trị"
+                },
+                {
+                    "id": 1860,
+                    "district": "Huyện Hướng Hóa"
+                },
+                {
+                    "id": 2137,
+                    "district": "Huyện Hải Lăng"
+                },
+                {
+                    "id": 2105,
+                    "district": "Huyện Đa Krông"
+                },
+                {
+                    "id": 1903,
+                    "district": "Huyện Cam Lộ"
+                },
+                {
+                    "id": 1612,
+                    "district": "Quảng Trị "
+                },
+                {
+                    "id": 1936,
+                    "district": "Huyện Gio Linh"
+                },
+                {
+                    "id": 2040,
+                    "district": "Huyện Triệu Phong"
+                },
+                {
+                    "id": 2110,
+                    "district": "Huyện đảo Cồn Cỏ"
+                }
+            ]
+        },
+        {
+            "id": 213,
+            "city": "Bến Tre",
+            "districts": [
+                {
+                    "id": 1558,
+                    "district": "Thành phố Bến Tre"
+                },
+                {
+                    "id": 3158,
+                    "district": "Huyện Chợ Lách"
+                },
+                {
+                    "id": 1557,
+                    "district": "Bến Tre"
+                },
+                {
+                    "id": 1742,
+                    "district": "Huyện Châu Thành"
+                },
+                {
+                    "id": 1888,
+                    "district": "Huyện Ba Tri"
+                },
+                {
+                    "id": 1895,
+                    "district": "Huyện Bình Đại"
+                },
+                {
+                    "id": 1937,
+                    "district": "Huyện Giồng Trôm"
+                },
+                {
+                    "id": 1974,
+                    "district": "Huyện Mỏ Cày Bắc"
+                },
+                {
+                    "id": 1975,
+                    "district": "Huyện Mỏ Cày Nam"
+                },
+                {
+                    "id": 2028,
+                    "district": "Huyện Thạnh Phú"
+                }
+            ]
+        },
+        {
+            "id": 230,
+            "city": "Quảng Ninh",
+            "districts": [
+                {
+                    "id": 1683,
+                    "district": "Thành phố Cẩm Phả"
+                },
+                {
+                    "id": 1686,
+                    "district": "Thành phố Uông Bí"
+                },
+                {
+                    "id": 1603,
+                    "district": "Thành phố Móng Cái"
+                },
+                {
+                    "id": 1604,
+                    "district": "Thành phố Hạ Long"
+                },
+                {
+                    "id": 3126,
+                    "district": "Huyện Ba Chẽ"
+                },
+                {
+                    "id": 3185,
+                    "district": "Huyện Đông Triều"
+                },
+                {
+                    "id": 3199,
+                    "district": "Huyện Hoành Bồ"
+                },
+                {
+                    "id": 3180,
+                    "district": "Huyện Đầm Hà"
+                },
+                {
+                    "id": 2109,
+                    "district": "Huyện đảo Cô Tô"
+                },
+                {
+                    "id": 1896,
+                    "district": "Huyện Bình Liêu"
+                },
+                {
+                    "id": 1597,
+                    "district": "Quảng Ninh"
+                },
+                {
+                    "id": 1920,
+                    "district": "Huyện đảo Vân Đồn"
+                },
+                {
+                    "id": 1940,
+                    "district": "Huyện Hải Hà"
+                },
+                {
+                    "id": 2019,
+                    "district": "Huyện Tiên Yên"
+                },
+                {
+                    "id": 2066,
+                    "district": "Thị xã Quảng Yên"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "secure_cookie": false,
+  "host": "localhost:8080",
+  "image_folder": "./images/",
+  "cors": {
+    "allowed_origins": ["http://localhost:2015", "http://localhost:8080", "http://localhost:9999"],
+    "max_age_in_hours": 12
+  },
+  "user_default": {
+    "root_id": "1",
+    "root_password": "123",
+    "admin_id": "123",
+    "admin_password": "123"
+  },
+  "database": {
+    "user": "postgres",
+    "password": "123456",
+    "database": "postgres",
+    "address": "db:5432"
+  }
+}

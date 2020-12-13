@@ -1,0 +1,115 @@
+<div class="container body-content">
+    <div class="row banner-category">
+        <div class="banner-category__title">Series</div>
+        <div class="banner-category__description">Tổng hợp các bài viết theo chủ đề</div>
+        <a class="mobile" href="/">#Bài viết</a>
+    </div>
+    <div class="row margin-0 ">
+        <div class="col-md-9 posts">
+            {{range .series}}
+            <div class="post">
+                <!-- <div class="row"> -->
+                    {{if .Thumbnail}}
+                    <div class="post__thumbnail" style="overflow: hidden; padding: 0;">
+                        <a href="/series/{{.Slug}}">
+                            <img src="{{.Thumbnail}}" alt="Thumbnail post">
+                        </a>
+                    </div>
+                    {{end}}
+                    <div class="post__text">
+                        <div class="post__title">
+                            <a href="/series/{{.Slug}}">{{.Title}}</a>
+                        </div>
+                        <div class="post__description">{{.Description}}</div>
+                        <div class="post__info">
+                            {{if .Author}}
+                            <div style="font-weight: 600;">
+                                {{.Author}}
+                            </div>
+                            {{end}}
+                            {{if .CreatedAtString}}
+                            <div>
+                                {{.CreatedAtString}}
+                            </div>
+                            {{end}}
+                            {{if .Tag}}
+                            <div style="font-weight: 600;">
+                                {{range .Tag}}
+                                #{{.}}
+                                {{end}}
+                            </div>
+                            {{end}}
+                        </div>
+                    </div>
+                <!-- </div> -->
+
+            </div>
+            {{end}}
+        </div>
+        <div class="col-md-3 desktop">
+            <div class="desktop category">
+                <div class="title">
+                    Series
+                </div>
+                <div class="category__items">
+                    <div class="category__item category__active"><a href="/"> Bài viết</a></div>
+                    <div class="category__item"><a href="/series"> Series</a></div>
+                </div>
+            </div>
+            <div class="title">
+                Tags
+            </div>
+            <div class="tags">
+                {{range .listTag}}
+                    <div class="tag tag-active" data-tag-slug="{{.Slug}}">#{{.Name}}</div>
+                {{end}}
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+
+    .post__info > div{
+        margin-right: 15px;
+    }
+
+
+</style>
+
+<script>
+
+    $('.tag').click(function (e) {
+        $( this ).removeClass('tag-active')
+        var TagSlug = $( this ).data( "tag-slug" )
+        var url = new URL(window.location.href);
+        var allTagParams = url.searchParams.getAll('tag');
+        url.searchParams.delete('tag')
+        var tagExist = false
+        for (i = 0; i < allTagParams.length; i++) {
+            if (allTagParams[i] == TagSlug) {
+                tagExist = true;
+                allTagParams.splice(i,1);
+                break
+            }
+        }
+        if (!tagExist) {
+            allTagParams.push(TagSlug);
+        }
+        for (i = 0; i < allTagParams.length; i++) {
+            url.searchParams.append('tag', allTagParams[i]);
+        }
+        window.location.href = url.href
+    });
+
+    $(".tag").each(function() {
+        $( this ).removeClass('tag-active');
+        var url = new URL(window.location.href);
+        var allTagParams = url.searchParams.getAll('tag');
+        var TagSlug = $( this ).data( "tag-slug" )
+        for (i = 0; i < allTagParams.length; i++) {
+            if (TagSlug == allTagParams[i]) {
+                $( this ).addClass('tag-active');
+            }
+        }
+    });
+</script>

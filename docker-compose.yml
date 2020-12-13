@@ -1,0 +1,76 @@
+version: "3.3"
+networks:
+  my-network:
+    external: true
+    # driver: overlay
+    # attachable: true
+services:
+  traefik:
+    image: traefik:1.7
+    command: --api --docker --docker.swarmmode --docker.watch --debug=false
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./traefik.toml:/etc/traefik/traefik.toml
+      - ./acme.json:/etc/traefik/acme/acme.json
+    networks:
+      - my-network
+    ports:
+      - 80:80
+      - 81:8080
+      - 443:443
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager
+      labels:
+        - "traefik.docker.network=my-network"
+
+
+  toilacoder:
+    depends_on:
+     - db
+    image: long25nt/toilacoder:latest
+    networks:
+      - my-network
+    volumes:
+      - /var/data/toilacoder/images:/app/images
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager
+      labels:
+        - "traefik.port=8080"
+        - "traefik.enable=true"
+        - "traefik.backend=toilacoder"
+        - "traefik.frontend.rule=Host:toilacoder.com,www.toilacoder.com"
+        - "traefik.docker.network=my-network"
+
+  db:    
+    image: postgres:11-alpine
+    ports:
+      - 25109:5432
+    environment: 
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123456
+      - PGDATA=/var/lib/postgresql/data/db-files/
+    volumes:
+      - /var/data/postgres_alpine:/var/lib/postgresql/data
+    networks:
+      - my-network
+
+  # pgadmin:
+  #   image: dpage/pgadmin4
+  #   networks:
+  #     - my-network
+  #   environment:
+  #     - PGADMIN_DEFAULT_EMAIL=test@abc.com
+  #     - PGADMIN_DEFAULT_PASSWORD=123123
+  #   deploy:
+  #     placement:
+  #       constraints:
+  #         - node.role == manager
+  #     labels:
+  #       - traefik.port=80
+  #       - "traefik.enable=true"
+  #       - "traefik.backend=pgadmin"
+  #       - "traefik.docker.network=my-network"
