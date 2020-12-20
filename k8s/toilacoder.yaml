@@ -11,13 +11,12 @@ spec:
     metadata:
       labels:
         name: toilacoder
-        version: 1.0
     spec:
       containers:
       - name: toilacoder
         image: long25nt/toilacoder:latest
         ports:
-          - containerPort: 8080
+        - containerPort: 8080
         volumeMounts:
         - mountPath: /app/images
           name: toilacoder
