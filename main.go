@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"os"
 
 	"toilacoder/config"
@@ -69,6 +70,7 @@ func setupDatabase(db *pg.DB, config config.Config) {
 
 	err := model.MigrationDb(db, config)
 	if err != nil {
+		fmt.Printf("hehe")
 		panic(err)
 	}
 }

@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: toilacoder
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      name: toilacoder
+  template:
+    metadata:
+      labels:
+        name: toilacoder
+        version: 1.0
+    spec:
+      containers:
+      - name: toilacoder
+        image: long25nt/toilacoder:latest
+        ports:
+          - containerPort: 8080
+        volumeMounts:
+        - mountPath: /app/images
+          name: toilacoder
+    volumes:
+      - name: toilacoder
+        persistentVolumeClaim:
+          claimName: toilacoder
