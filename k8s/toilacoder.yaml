@@ -21,7 +21,7 @@ spec:
         volumeMounts:
         - mountPath: /app/images
           name: toilacoder
-    volumes:
+      volumes:
       - name: toilacoder
         persistentVolumeClaim:
           claimName: toilacoder
