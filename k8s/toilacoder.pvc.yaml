@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: toilacoder
 spec:
-  storageClassName: "standard"  # Static provisioning
+  storageClassName: ""  # Static provisioning
   accessModes:
     - ReadWriteOnce
   resources:
